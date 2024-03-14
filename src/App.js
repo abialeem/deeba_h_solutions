@@ -26,6 +26,9 @@ function App() {
 				</div>
 			</div>
 		{/*End Hero Section*/} 
+
+   
+
     </div>
   );
 }
