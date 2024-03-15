@@ -1,0 +1,109 @@
+.exten-features-section {
+    /* background: #f6fffb; */
+    background:#3b5d50;
+    position: relative;
+    max-width: 100% !important;
+    padding: 100px 0px;
+    margin-bottom:30px;
+}
+.section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.custom-container {
+    max-width: 95%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.ent-acc:after {
+    background: linear-gradient(296.25deg, #f0f3ff 37.78%, #3b5d50 84.89%);
+    width: 129px;
+    height: 129px;
+    content: "";
+    position: absolute;
+    top: -29px;
+    left: -59px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.ent-acc h5 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #d0c9c9;
+    margin: 0;
+}
+.ent-acc h2 {
+    margin: 10px 0 30px;
+    color:white;
+}
+.blue-color {
+    color: #bab320 !important;
+}
+
+.ext-feature {
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 14px;
+    padding: 20px 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-image: linear-gradient(180deg, #e4eaff 0%, rgba(228, 234, 255, 0) 100%);
+    border-image-slice: 1;
+    position: relative;
+    margin-bottom: 10px;
+}
+.ext-feature svg.ext-feture-img-1 {
+    box-shadow: 0 15px 20px 0 #1c44d64d;
+}
+.ext-feture-img-2 {
+    box-shadow: 0 15px 20px 0 #e8505b4d;
+}
+.ext-feture-img-3 {
+    box-shadow: 0 15px 20px 0 #6ec6c44d;
+}
+.ext-feture-img-4 {
+    box-shadow: 0 15px 20px 0 #29d68b4d;
+}
+.ext-feature svg {
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.exten-features-section h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #1c2c40;
+    padding-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.exten-features-section p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #4f5b6a;
+    padding-left: 20px;
+    padding-right: 20px;
+    height:120px;
+}
+.ext-feature:after {
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    content: "";
+    z-index: -1;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #e4eaff 0%, rgba(228, 234, 255, 0) 100%);
+}

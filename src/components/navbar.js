@@ -4,7 +4,7 @@ function Navbar(){
     return (
         <nav className="custom-navbar navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Furni navigation bar">
           <div className="container-fluid">
-            <a className="navbar-brand" href="index.html">Zeeba H Solutions<span>.</span></a>
+            <a className="navbar-brand company-nav-title" href="index.html">Zeeba H Solutions<span>.</span></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -12,7 +12,7 @@ function Navbar(){
               <ul className="navbar-nav me-auto ms-auto mb-2 mb-lg-0 ">
                  {/* New nav-link with dropdown */}
                 <li className="nav-item dropdown hover-dropdown" style={{ marginLeft: '10px', marginRight: '10px' }}>
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
+                <a className="nav-link dropdown-toggle navbar-link-title" href="#" id="navbarDropdown3" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
                 SERVICES
                 </a>
                 <ul className="dropdown-menu dropdown-menu-hover nav_dropdowns_lvl_1" aria-labelledby="navbarDropdown3">
@@ -54,7 +54,7 @@ function Navbar(){
                 </ul>
                 </li>
                 <li className="nav-item dropdown hover-dropdown" style={{ marginLeft: '10px', marginRight: '10px' }}>
-                    <a className="nav-link dropdown-toggle"  id="navbarDropdown7" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" href="industries.html">
+                    <a className="nav-link dropdown-toggle navbar-link-title"  id="navbarDropdown7" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" href="industries.html">
                         INDUSTRIES
                         </a>
                         <ul className="dropdown-menu dropdown-menu-hover nav_dropdowns_lvl_1" aria-labelledby="navbarDropdown7">
@@ -67,7 +67,7 @@ function Navbar(){
                         </ul>
                 </li>
                 <li className="nav-item dropdown hover-dropdown" style={{ marginLeft: '10px', marginRight: '10px' }}>
-                    <a className="nav-link dropdown-toggle"  id="navbarDropdown8" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" href="languages.html">
+                    <a className="nav-link dropdown-toggle navbar-link-title"  id="navbarDropdown8" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" href="languages.html">
                         LANGUAGES
                         </a>
                         <ul className="dropdown-menu dropdown-menu-hover nav_dropdowns_lvl_1" aria-labelledby="navbarDropdown8">
@@ -77,7 +77,7 @@ function Navbar(){
                         </ul>
                 </li>
                 <li className="nav-item dropdown hover-dropdown" style={{ marginLeft: '10px', marginRight: '10px' }}>
-                    <a className="nav-link dropdown-toggle"  id="navbarDropdown9" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" href="about.html">
+                    <a className="nav-link dropdown-toggle navbar-link-title"  id="navbarDropdown9" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" href="about.html">
                         ABOUT
                         </a>
                         <ul className="dropdown-menu dropdown-menu-hover nav_dropdowns_lvl_1" aria-labelledby="navbarDropdown9">
@@ -87,7 +87,7 @@ function Navbar(){
                         </ul>
                 </li>
                 <li className="nav-item dropdown hover-dropdown" style={{ marginLeft: '10px', marginRight: '10px' }}>
-                    <a className="nav-link dropdown-toggle"  id="navbarDropdown10" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" href="resources.html">
+                    <a className="nav-link dropdown-toggle navbar-link-title"  id="navbarDropdown10" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" href="resources.html">
                         RESOURCES
                         </a>
                         <ul className="dropdown-menu dropdown-menu-hover nav_dropdowns_lvl_1" aria-labelledby="navbarDropdown10">
@@ -106,10 +106,10 @@ function Navbar(){
               </ul>
               <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
               <li >
-                    <a className="nav-link btn btn-secondary " id="contact-nav-btn" href="contact.html">CONTACT US</a>
+                    <a className="nav-link btn btn-secondary shadow" id="contact-nav-btn" href="contact.html">CONTACT US</a>
                 </li>
                 <li>
-                  <a className="nav-link btn btn-white-outline " id="quote-nav-btn"  href="quote.html">
+                  <a className="nav-link btn btn-white-outline shadow" id="quote-nav-btn"  href="quote.html">
                     GET A FREE QUOTE
                   </a>
                 </li>
