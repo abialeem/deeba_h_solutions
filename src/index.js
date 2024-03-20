@@ -20,6 +20,30 @@ import InterpretationAssessment from './components/Services/Testing/Interpretati
 import TranslationAssessment from './components/Services/Testing/TranslationAssessment';
 import PreparingForYourTest from './components/Services/Testing/PreparingForYourTest';
 import Training from './components/Services/Training/Training';
+import Translation from './components/Services/Translation/Translation';
+import Document from './components/Services/Translation/Document';
+import Desktop from './components/Services/Translation/Desktop';
+import Software from './components/Services/Translation/Software';
+import VoiceOverDubbing from './components/Services/Translation/VoiceOverDubbing';
+import Website from './components/Services/Translation/Website';
+import Industries from './components/Industries/Industries';
+import Education from './components/Industries/Education';
+import Finance from './components/Industries/Finance';
+import Government from './components/Industries/Government';
+import Healthcare from './components/Industries/Healthcare';
+import HumanResources from './components/Industries/HumanResources';
+import Legal from './components/Industries/Legal';
+import Languages  from './components/Languages/Languages';
+import TranslationLanguages  from './components/Languages/TranslationLanguage';
+import InterpretationLanguages  from './components/Languages/InterpretationLanguage';
+import TestingLanguages from './components/Languages/Testing';
+import About from './components/About/About';
+import Esop from './components/About/Esop';
+import IsoCertification from './components/About/IsoCertification';
+import ContactUs from './components/ContactUs';
+import GetAQuote from './components/GetAQuote';
+import ViewTestPrep from './components/About/ViewTestPrep';
+import Faqs from './components/About/Faqs';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -40,8 +64,36 @@ const router = createBrowserRouter(
         <Route path='/services/testing/interpretation-assessment' element={<InterpretationAssessment />} />  
         <Route path='/services/testing/translation-assessment' element={<TranslationAssessment />} />  
         <Route path='/services/testing/preparing-for-your-test' element={<PreparingForYourTest />} />  
-      <Route path='/services/training' element={<Training />} />   
-       
+       <Route path='/services/training' element={<Training />} /> 
+       <Route path='/services/translation' element={<Translation/>} />
+        <Route path='/services/translation/document' element={<Document/>} />  
+        <Route path='/services/translation/website' element={<Website/>} />
+        <Route path='/services/translation/software' element={<Software/>} />
+        <Route path='/services/translation/voiceover-dubbing' element={<VoiceOverDubbing/>} />
+        <Route path='/services/translation/desktop' element={<Desktop/>} />
+      <Route path='/industries' element={<Industries />} />
+        <Route path='/industries/education' element={<Education />} />
+        <Route path='/industries/finance' element={<Finance />} />
+        <Route path='/industries/government' element={<Government />} />
+        <Route path='/industries/healthcare' element={<Healthcare />} />
+        <Route path='/industries/hr' element={<HumanResources />} />
+        <Route path='/industries/legal' element={<Legal />} />
+      <Route path='/languages' element={<Languages />} />
+      <Route path='/languages/interpretation' element={<InterpretationLanguages />} />
+      <Route path='/languages/testing' element={<TestingLanguages />} />
+      <Route path='/languages/translation' element={<TranslationLanguages />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/about/esop' element={<Esop />} />
+      <Route path='/about/iso-certification' element={<IsoCertification />} />
+      <Route path='/contact-us' element={<ContactUs />} />
+      <Route path='/get-a-quote' element={<GetAQuote />} />
+      <Route path='/view-test-prep' element={<ViewTestPrep/>} />
+      <Route path='/about/faqs' element={<Faqs />} />
+      <Route path='/services/interpreting/interpreting' element={<Interpreting />} />
+      
+      
+          {/*  Resources routes here  */}
+      
     </Route>
   )
 )

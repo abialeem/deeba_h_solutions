@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Welcome(){
         return(
 <div className="we-help-section" style={{marginTop:'100px',marginBottom:'100px'}}>
@@ -14,7 +16,7 @@ function Welcome(){
             <span>WELCOME TO ZEEBA H SOLUTIONS</span>
             <h2 className="section-title mb-4">Professional interpretation, translation, language training & testing since democratized.</h2>
             
-            <p><a href="#" className="btn">Explore Our Services</a></p>
+            <p><Link to="./services" className="btn">Explore Our Services</Link></p>
           </div>
         </div>
       </div>

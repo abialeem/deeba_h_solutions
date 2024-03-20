@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 export default function Footer(){
     return (
-        <footer className="footer-section">
+        <footer className="footer-section" style={{marginTop:'200px'}}>
   <div className="container relative">
     <div className="sofa-img">
-      <img src="images/ZEBA_FEAUTE_IMAGE.png" alt="company-name"  className="img-fluid" />
+      <img src="./images/ZEBA_FEAUTE_IMAGE.png" alt="company-name"  className="img-fluid" />
     </div>
     <div className="row">
       <div className="col-lg-8">

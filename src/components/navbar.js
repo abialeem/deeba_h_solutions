@@ -78,13 +78,13 @@ function Navbar(){
                         </ul>
                 </li>
                 <li className="nav-item dropdown hover-dropdown" style={{ marginLeft: '10px', marginRight: '10px' }}>
-                    <Link className="nav-link dropdown-toggle navbar-link-title"  id="navbarDropdown9" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" to="/about">
+                    <Link className="nav-link dropdown-toggle navbar-link-title"  id="navbarDropdown9" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" to="/about/about">
                         ABOUT
                         </Link>
                         <ul className="dropdown-menu dropdown-menu-hover nav_dropdowns_lvl_1" aria-labelledby="navbarDropdown9">
-                        <li><Link className="dropdown-item" to="/aboutus/about">About us</Link></li>
-                        <li><Link className="dropdown-item" to="/aboutus/esop">esop</Link></li>
-                        <li><Link className="dropdown-item" to="/aboutus/iso-certification">ISO Certification</Link></li>
+                        <li><Link className="dropdown-item" to="/about/about">About us</Link></li>
+                        <li><Link className="dropdown-item" to="/about/esop">esop</Link></li>
+                        <li><Link className="dropdown-item" to="/about/iso-certification">ISO Certification</Link></li>
                         </ul>
                 </li>
                 <li className="nav-item dropdown hover-dropdown" style={{ marginLeft: '10px', marginRight: '10px' }}>

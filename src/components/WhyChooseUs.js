@@ -14,37 +14,37 @@ function WhyChooseUs(){
                 imgSrc='https://altalang.com/wp-content/uploads/2023/04/service-tile_interpretation-1024x480.jpg'
                 title='PROFESSIONAL INTERPRETATION SERVICES'
                 description='Qualified interpreters with experience in medical and legal settings, business meetings, conferences, and more. Available on-site and over-the-phone. Video remote interpreting and rental equipment also available.'
-                linkURL='#'
+                linkURL='/services/interpreting/interpreting'
                 />
                 <FeatureCard 
                 imgSrc='https://altalang.com/wp-content/uploads/2023/04/service-tile_translation-1024x480.jpg'
                 title='Mutli-Medium Translation Services'
                 description='Professional localization and document translation services are trusted by thousands of organizations doing business globally. ISO-certified to ensure a fast turnaround, high accuracy, and exceptional quality.'
-                linkURL='#'
+                linkURL='/services/interpreting/interpreting'
                 />
                 <FeatureCard 
                 imgSrc='https://altalang.com/wp-content/uploads/2023/06/service-tile2_language-testing-1024x480.jpg'
                 title='Language Proficiency Testing Services'
                 description='Language proficiency tests for business, healthcare organizations, and government agencies. Reliable language proficiency testing is available online and over the phone for any position.'
-                linkURL='#'
+                linkURL='/services/interpreting/interpreting'
                 />
                 <FeatureCard 
                 imgSrc='https://altalang.com/wp-content/uploads/2023/05/service-tiles_language-training-1024x480.jpg'
                 title='Language Training'
                 description='Live Face-to-Face Online language training for corporate and government clients. Customized, interactive, and guaranteed language instruction from an experienced professional trainer.'
-                linkURL='#'
+                linkURL='/services/interpreting/interpreting'
                 />
                 <FeatureCard 
                 imgSrc='https://altalang.com/wp-content/uploads/2023/05/service-tile_accent-reduction-1024x480.jpg'
                 title='Interpreter Training'
                 description='Available in-person and online, Zeeba H Solutions will transform your language skills into a fulfilling career. Register for our 40-hour interpreter training course to earn a certificate for qualification.'
-                linkURL='#'
+                linkURL='/services/interpreting/interpreting'
                 />
                 <FeatureCard 
                 imgSrc='https://altalang.com/wp-content/uploads/2023/06/service-tile2_accent-reduction-1024x480.jpg'
                 title='Accent Reduction'
                 description='Accent Training programs for call-center agents, medical professionals, and anyone ready to break the communication barriers a foreign language accent can create. Live Face-to-Face and Online programs.'
-                linkURL='#'
+                linkURL='/services/interpreting/interpreting'
                 />
 
               </div>
