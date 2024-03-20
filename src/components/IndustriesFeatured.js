@@ -16,7 +16,7 @@ function IndustriesFeatured(){
           <div className="col-md-3">
               <div className="services-link">
                 <div className="ext-feature">
-                <img src="./images/location-svg.png" width="50px" style={{marginLeft:'20px'}} />
+                <img src="./images/location-svg.png" alt='location-iamge' width="50px" style={{marginLeft:'20px'}} />
                   <h3>High-Quality On-Site interpretation (ONS)</h3>
                   <p>High-Quality On-Site Interpreting Where and When You Need It.</p>
                 </div>
@@ -80,7 +80,7 @@ function IndustriesFeatured(){
             <div className="col-md-3">
               <div className="services-link">
                 <div className="ext-feature">
-                <img src="./images/equipment-svg.png" width="50px" style={{marginLeft:'20px'}} />
+                <img src="./images/equipment-svg.png" alt='equipment-rental' width="50px" style={{marginLeft:'20px'}} />
                   <h3>INTERPRETATION EQUIPMENT RENTALS</h3>
                   <p>Simultaneous Interpretation Equipment Rentals.</p>
                 </div>

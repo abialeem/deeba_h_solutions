@@ -16,7 +16,7 @@ function Hero(){
                 </div>
                 <div  className="col-lg-6">
                     <div  className="hero-img-wrap">
-                        <img src="./images/ZEBA_FEAUTE_IMAGE.png" alt="feautred_images_front"  className="img-fluid feature-image" />
+                        <img src="/images/ZEBA_FEAUTE_IMAGE.png" alt="feautred_images_front"  className="img-fluid feature-image" />
                     </div>
                 </div>
             </div>
