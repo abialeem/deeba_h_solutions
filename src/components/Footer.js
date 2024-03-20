@@ -1,15 +1,17 @@
+import { Link } from "react-router-dom";
+
 export default function Footer(){
     return (
         <footer className="footer-section">
   <div className="container relative">
     <div className="sofa-img">
-      <img src="images/ZEBA_FEAUTE_IMAGE.png" alt="Image" className="img-fluid" />
+      <img src="images/ZEBA_FEAUTE_IMAGE.png" alt="company-name"  className="img-fluid" />
     </div>
     <div className="row">
       <div className="col-lg-8">
         <div className="subscription-form">
           <h3 className="d-flex align-items-center">
-            <span className="me-1"><img src="images/envelope-outline.svg" alt="Image" className="img-fluid" /></span>
+            <span className="me-1"><img src="images/envelope-outline.svg" alt="envelope-outline"  className="img-fluid" /></span>
             <span>Subscribe to Newsletter</span>
           </h3>
           <form action="#" className="row g-3">
@@ -31,50 +33,39 @@ export default function Footer(){
     <div className="row g-5 mb-5">
       <div className="col-lg-4">
         <div className="mb-4 footer-logo-wrap">
-          <a href="#" className="footer-logo">ZEEBA H SOLUTIONS<span>.</span></a>
+          <Link to="/" className="footer-logo">ZEEBA H SOLUTIONS<span>.</span></Link>
         </div>
         <p className="mb-4">Whether through translation services, language testing, or any of our client-tailored language solutions projects, ZEEBA H SOLUTIONS develops and employs the latest technology to bridge cultures. It is the combination of our linguistic expertise, tech savviness, understanding of cultures, and quality service that sets us apart.</p>
         <ul className="list-unstyled custom-social">
-          <li><a href="#"><span className="fa fa-brands fa-facebook-f"></span></a></li>
-          <li><a href="#"><span className="fa fa-brands fa-twitter"></span></a></li>
-          <li><a href="#"><span className="fa fa-brands fa-instagram"></span></a></li>
-          <li><a href="#"><span className="fa fa-brands fa-linkedin"></span></a></li>
+          <li><Link to="https://facebook.com"><span className="fa fa-brands fa-facebook-f"></span></Link></li>
+          <li><Link to="https://twitter.com"><span className="fa fa-brands fa-twitter"></span></Link></li>
+          <li><Link to="https://instagram.com"><span className="fa fa-brands fa-instagram"></span></Link></li>
+          <li><Link to="https://linkedin.com"><span className="fa fa-brands fa-linkedin"></span></Link></li>
         </ul>
       </div>
       <div className="col-lg-8">
         <div className="row links-wrap">
-          <div className="col-6 col-sm-6 col-md-3">
-            <ul className="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact us</a></li>
-            </ul>
+        <div className="col-6 col-sm-6 col-md-3">
+          {/* empty div for margin */    }
           </div>
           <div className="col-6 col-sm-6 col-md-3">
             <ul className="list-unstyled">
-              <li><a href="#">Support</a></li>
-              <li><a href="#">Knowledge base</a></li>
-              <li><a href="#">Live chat</a></li>
+              <li><Link to="/about">About us</Link></li>
+              <li><Link to="/services">Services</Link></li>
+              <li><Link to="/resources/blog">Blog</Link></li>
+              <li><Link to="/contact-us">Contact us</Link></li>
             </ul>
           </div>
+          
           <div className="col-6 col-sm-6 col-md-3">
             <ul className="list-unstyled">
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Our team</a></li>
-              <li><a href="#">Leadership</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><Link to="/jobs">Jobs</Link></li>
+              <li><Link to="/our-team">Our team</Link></li>
+              <li><Link to="/leadership">Leadership</Link></li>
+              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
             </ul>
           </div>
-          {/* 
-          <div className="col-6 col-sm-6 col-md-3">
-            <ul className="list-unstyled">
-              <li><a href="#">Nordic Chair</a></li>
-              <li><a href="#">Kruzo Aero</a></li>
-              <li><a href="#">Ergonomic Chair</a></li>
-            </ul>
-          </div> 
-          */}
+          
         </div>
       </div>
     </div>
@@ -85,8 +76,10 @@ export default function Footer(){
         </div>
         <div className="col-lg-6 text-center text-lg-end">
           <ul className="list-unstyled d-inline-flex ms-auto">
-            <li className="me-4"><a href="#">Terms &amp; Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li className="me-4">
+              <Link to="/terms-conditions">Terms &amp; Conditions</Link>
+              </li>
+            <li><Link to="/privacy-policy">Privacy Policy</Link></li>
           </ul>
         </div>
       </div>

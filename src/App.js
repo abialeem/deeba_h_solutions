@@ -8,12 +8,6 @@ function App() {
     <div className="App">
      <Navbar/>
      <Outlet />
-     {/* <Hero/>
-     <Welcome/>
-     <AboutUsBar/>
-     <WhyChooseUs/>
-     <IndustriesFeatured/>
-     <FieldsFeatured/> */}
      <Footer/>
     </div>
   );
