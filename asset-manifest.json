@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/deeba_h_solutions/static/css/main.9a7d5bd2.css",
+    "main.js": "/deeba_h_solutions/static/js/main.be0f6943.js",
+    "static/media/dots-green.svg": "/deeba_h_solutions/static/media/dots-green.fc0a29ccdaf1ec80964e.svg",
+    "static/media/dots-yellow.svg": "/deeba_h_solutions/static/media/dots-yellow.bfc44818a1b6606dd7c1.svg",
+    "static/media/dots-light.svg": "/deeba_h_solutions/static/media/dots-light.e00bbd6fd2e7780c28c9.svg",
+    "index.html": "/deeba_h_solutions/index.html",
+    "main.9a7d5bd2.css.map": "/deeba_h_solutions/static/css/main.9a7d5bd2.css.map",
+    "main.be0f6943.js.map": "/deeba_h_solutions/static/js/main.be0f6943.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a7d5bd2.css",
+    "static/js/main.be0f6943.js"
+  ]
+}
