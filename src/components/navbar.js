@@ -27,7 +27,6 @@ function Navbar(){
                         <li><Link className="dropdown-item"  to="/services/interpreting/video-remote-interpreting">VIDEO REMOTE INTERPRETING</Link></li>
                         <li><Link className="dropdown-item"  to="/services/interpreting/remote-simultaneous-interpreting">REMOTE SIMULTANEOUS INTERPRETING (RSI)</Link></li>
                         <li><Link className="dropdown-item"  to="/services/interpreting/conference-interpreting">CONFERENCE INTERPRETING</Link></li>
-                        <li><Link className="dropdown-item"  to="/services/interpreting/equipment-rentals-interpreting">INTERPRETATION EQUIPMENT RENTALS</Link></li>
                         </ul>
                     </li>
                   <li className="nav-item dropdown hover-dropdown2 dropend">

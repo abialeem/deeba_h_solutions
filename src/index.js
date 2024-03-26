@@ -10,7 +10,6 @@ import OnSiteInterpretation from './components/Services/Interpreting/OnSiteInter
 import OverPhoneInterpreting from './components/Services/Interpreting/OverPhoneInterpreting';
 import VideoRemoteInterpreting from './components/Services/Interpreting/VideoRemoteInterpreting';
 import ConferenceInterpreting from './components/Services/Interpreting/ConferenceInterpreting';
-import EquipmentRentalsInterpreting from './components/Services/Interpreting/EquipmentRentalsInterpreting';
 import RemoteSimultaneousInterpreting from './components/Services/Interpreting/RemoteSimultaneousInterpreting';
 import Testing from './components/Services/Testing/Testing';
 import SpeakingListeningAssessment from './components/Services/Testing/SpeakingListeningAssessment';
@@ -56,7 +55,6 @@ const router = createBrowserRouter(
         <Route path='/services/interpreting/video-remote-interpreting' element={<VideoRemoteInterpreting />} />
         <Route path='/services/interpreting/remote-simultaneous-interpreting' element={<RemoteSimultaneousInterpreting />} />
         <Route path='/services/interpreting/conference-interpreting' element={<ConferenceInterpreting />} />
-        <Route path='/services/interpreting/equipment-rentals-interpreting' element={<EquipmentRentalsInterpreting />} />
       <Route path='/services/testing' element={<Testing />} />   
         <Route path='/services/testing/speaking-listening-assessment' element={<SpeakingListeningAssessment />} />    
         <Route path='/services/testing/reading-assessment' element={<ReadingAssessment/>} />  
@@ -89,7 +87,7 @@ const router = createBrowserRouter(
       <Route path='/get-a-quote' element={<GetAQuote />} />
       <Route path='/view-test-prep' element={<ViewTestPrep/>} />
       <Route path='/about/faqs' element={<Faqs />} />
-      <Route path='/services/interpreting/interpreting' element={<Interpreting />} />
+     
       
       
           {/*  Resources routes here  */}

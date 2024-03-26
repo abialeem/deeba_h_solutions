@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+.gform_fields {
+    grid-column-gap: 2%;
+    grid-row-gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(auto-fill, auto);
+    width: 100%;
+}
+.gfield.gfield--width-half {
+    -ms-grid-column-span: 6;
+    grid-column: span 6;
+}
+.gfield.gfield--width-full {
+    -ms-grid-column-span: 12;
+    grid-column: span 12;
+}
+.gfield_label {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    padding: 0;
+}

@@ -1,0 +1,13 @@
+.custom-list-type1 li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent; /* Adjust as needed */
+    border-bottom: 5px solid transparent; /* Adjust as needed */
+    border-right: 5px solid #fff; /* Adjust as needed */
+  }
+  

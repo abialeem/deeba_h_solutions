@@ -1,0 +1,28 @@
+/* Active state for default pills */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #3b5d50; /* Change to your desired active color */
+  color: #fff; /* Change to your desired text color */
+}
+
+/* Active state for pills with custom color */
+.nav-pills-custom .nav-link.active,
+.nav-pills-custom .show > .nav-link {
+  background-color: #3b5d50; /* Change to your desired active color */
+  color: #fff; /* Change to your desired text color */
+}
+.nav-pills .nav-link {
+    border-radius: 20px; /* Adjust the border-radius as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border:1px solid #3b5d50;
+    color:#3b5d50;
+    margin-left:30px;
+    margin-right:30px;
+  }
+
+  #myTabContent{
+    background-color: #dddd;
+    color:black;
+    padding:20px;
+    margin-top:10px;
+  }
