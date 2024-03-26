@@ -1,4 +1,4 @@
-import ContactUsForm from "../../ContactUsForm"
+import ContactUsForm from '../../Forms/ContactUsForm'
 import FieldsFeatured from "../../FieldsFeatured"
 import './OverPhoneInterpreting.css'
 function ConferenceInterpreting() {

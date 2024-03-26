@@ -1,5 +1,5 @@
 // import {Link} from  'react-router-dom'
-import ContactUsForm from '../../ContactUsForm'
+import ContactUsForm from '../../Forms/ContactUsForm'
 import IndustriesFeatured from '../../IndustriesFeatured'
 
 function OnSiteInterpretation() {

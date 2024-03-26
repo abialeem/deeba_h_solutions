@@ -1,4 +1,4 @@
-import ContactUsForm from '../../ContactUsForm';
+import ContactUsForm from '../../Forms/ContactUsForm'
 import './OverPhoneInterpreting.css'
 import { Link } from 'react-router-dom';
 
