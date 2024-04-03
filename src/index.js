@@ -43,6 +43,11 @@ import ContactUs from './components/ContactUs';
 import GetAQuote from './components/GetAQuote';
 import ViewTestPrep from './components/About/ViewTestPrep';
 import Faqs from './components/About/Faqs';
+import AccentReductionTest from './components/Services/Training/AccentReductionTest';
+import NationalOralExamTestPrep from './components/Services/Training/NationalOralExamTestPrep';
+import ContinueEducationForMedicalInterpreters from './components/Services/Training/ContinueEducationForMedicalInterpreters';
+import FortyHourCourse from './components/Services/Training/FortyHourCourse';
+import EightyHourCourse from './components/Services/Training/EightyHourCourse';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -87,7 +92,12 @@ const router = createBrowserRouter(
       <Route path='/get-a-quote' element={<GetAQuote />} />
       <Route path='/view-test-prep' element={<ViewTestPrep/>} />
       <Route path='/about/faqs' element={<Faqs />} />
-     
+      {/** training routes */}
+      <Route path='/services/training/accent-reduction-test' element={<AccentReductionTest />} />
+      <Route path='/services/training/national-oral-exam-test-prep' element={<NationalOralExamTestPrep />} />
+      <Route path='/services/training/continue-education-for-medical-interpreters' element={<ContinueEducationForMedicalInterpreters />} />
+      <Route path='/services/training/40-hour-course' element={<FortyHourCourse />} />
+      <Route path='/services/training/80-hour-course' element={<EightyHourCourse />} />
       
       
           {/*  Resources routes here  */}

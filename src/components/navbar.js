@@ -86,7 +86,7 @@ function Navbar(){
                         <li><Link className="dropdown-item" to="/about/iso-certification">ISO Certification</Link></li>
                         </ul>
                 </li>
-                <li className="nav-item dropdown hover-dropdown" style={{ marginLeft: '10px', marginRight: '10px' }}>
+                {/* <li className="nav-item dropdown hover-dropdown" style={{ marginLeft: '10px', marginRight: '10px' }}>
                     <Link className="nav-link dropdown-toggle navbar-link-title"  id="navbarDropdown10" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" to="/resources">
                         RESOURCES
                         </Link>
@@ -101,7 +101,7 @@ function Navbar(){
                              </ul>
                         </li>
                         </ul>
-                </li>
+                </li> */}
                 
               </ul>
               <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">

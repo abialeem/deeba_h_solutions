@@ -8,7 +8,11 @@ import FieldsFeatured from '../FieldsFeatured';
 export default function Home() {
   return (
     <>
-     <Hero/>
+     <Hero
+      heading='Industry Leading Language Services In 100+ Languages'
+      description='Unlock global opportunities with our reliable and professional language services for seamless cross-cultural communication.'
+      imgSrc='/images/ZEBA_FEAUTE_IMAGE.png'
+      />
      <Welcome/>
      <AboutUsBar/>
      <WhyChooseUs/>

@@ -98,6 +98,7 @@ a {
 
 .hero {
   background: #3b5d50;
+  min-height:630px;
   padding: calc(4rem - 30px) 0 0rem 0; }
   @media (min-width: 768px) {
     .hero {

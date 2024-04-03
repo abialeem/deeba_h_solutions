@@ -41,13 +41,11 @@ function Desktop() {
           </div>
           <div className="col-lg-6 ">
             <div className="hero-img-wrap" style={{marginLeft:'40px'}}>
-              
                 <img 
                 src="https://1.bp.blogspot.com/-FioU47OlaaU/YGf-zYt2W3I/AAAAAAAAAC4/iWb8F2FCbwcIRzT-HrvgnGXDmiib9KaTACLcBGAsYHQ/s2048/desktop%2Bpublishing%2Bservice.jpg"
                  alt="Untree.co"
                  style={{width:'600px',borderRadius:'20px'}}
                   />
-             
              
             </div>
           </div>
@@ -131,7 +129,7 @@ function Desktop() {
       </div>
     </div>
 
-    <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
+    <div className="we-help-section" style={{marginTop:'50px',marginBottom:'50px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row justify-content-between">
           
