@@ -47,7 +47,8 @@ import AccentReductionTest from './components/Services/Training/AccentReductionT
 import NationalOralExamTestPrep from './components/Services/Training/NationalOralExamTestPrep';
 import ContinueEducationForMedicalInterpreters from './components/Services/Training/ContinueEducationForMedicalInterpreters';
 import FortyHourCourse from './components/Services/Training/FortyHourCourse';
-import EightyHourCourse from './components/Services/Training/EightyHourCourse';
+import SixtyHourCourse from './components/Services/Training/SixtyHourCourse';
+import JoinOurTeam from './components/JoinOurTeam';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -97,7 +98,10 @@ const router = createBrowserRouter(
       <Route path='/services/training/national-oral-exam-test-prep' element={<NationalOralExamTestPrep />} />
       <Route path='/services/training/continue-education-for-medical-interpreters' element={<ContinueEducationForMedicalInterpreters />} />
       <Route path='/services/training/40-hour-course' element={<FortyHourCourse />} />
-      <Route path='/services/training/80-hour-course' element={<EightyHourCourse />} />
+      <Route path='/services/training/60-hour-course' element={<SixtyHourCourse />} />
+
+
+      <Route path='/join-our-team' element={<JoinOurTeam />} />
       
       
           {/*  Resources routes here  */}

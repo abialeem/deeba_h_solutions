@@ -55,7 +55,7 @@ Interpretation <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"><
         <div className="col-4">
           {/** widget starts */}
         <div  className="widget-container w-100 h-100">
-<Link  className="cta" to="/services/translation/">
+<Link  className="cta" to="/services/translation/document/">
 <div  className="cta__content">
 <div  className=" content-item  cta__content-item  icon-wrapper  cta__icon  view-default">
 <div  className=" icon">
@@ -80,7 +80,7 @@ Translation <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i>
         <div className="col-4">
           {/** widget starts */}
         <div  className="widget-container w-100 h-100">
-<Link  className="cta" to="/services/testing/">
+<Link  className="cta" to="/services/testing/speaking-listening-assessment">
 <div  className="cta__content">
 <div  className=" content-item  cta__content-item  icon-wrapper  cta__icon  view-default">
 <div  className=" icon">

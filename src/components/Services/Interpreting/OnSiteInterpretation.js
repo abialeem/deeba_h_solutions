@@ -20,7 +20,7 @@ function OnSiteInterpretation() {
                 </div>
                 <div  className="col-lg-6">
                     <div  className="hero-img-wrap">
-                        <img src="https://ulanguage.com/wp-content/uploads/2020/07/interp2-1024x682.jpg" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
+                        <img src={process.env.PUBLIC_URL + "/images/onsite_interpretation_feature_1.webp" } alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@ function OnSiteInterpretation() {
 
           <div className='col-lg-6'>
           <div className="card d-flex h-100" style={{padding:'10px'}}>
-  <img src="https://www.langpros.net/wp-content/uploads/2023/04/Consecutive-On-Site-Interpretation%E2%80%8B.webp"
+  <img src={process.env.PUBLIC_URL + "/images/onsite_interpretation_feature_1.webp" }
    className="card-img-top"
     alt={'onsite-interpretation-image'+Math.random()} 
     style={{padding:'15px',borderRadius:'20px',width:'100%',height:'350px'}}
@@ -133,7 +133,7 @@ On-site interpretation is ideal for 1-on-1 or small-group interpretation scenari
 
           <div className='col-lg-6'>
           <div className="card d-flex h-100" style={{padding:'10px'}}>
-  <img src="https://th.bing.com/th/id/OIP.tIfB4FnpWhVDKKbFkfFMUgHaE8?rs=1&pid=ImgDetMain"
+  <img src={process.env.PUBLIC_URL + "/images/onsite_interpretation_feature_2.jpeg" }
    className="card-img-top"
     alt={'onsite-interpretation-image'+Math.random()} 
     style={{padding:'15px',borderRadius:'20px',width:'100%',height:'350px'}}

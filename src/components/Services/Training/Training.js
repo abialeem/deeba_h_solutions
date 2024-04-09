@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import WhyChooseUs from '../../WhyChooseUs';
 
 function Training() {
-  const contactNumber = '111-111-111';
+  // const contactNumber = '111-111-111';
   return (
     <>
     <div  className="hero">
@@ -90,11 +90,11 @@ Online Medical Interpreter Training
 </h3>
 <div  className=" cta__description  cta__content-item  content-item" styl={{height:'400px'}}>
 <p>
-Launch your new career with our interactive 40-hour or 80-hour medical interpreter training! Earn a Certificate of Qualification to help you find work right away, plus meet the requirements to take your national certification exams.
+Launch your new career with our interactive 40-hour or 60-hour medical interpreter training! Earn a Certificate of Qualification to help you find work right away, plus meet the requirements to take your national certification exams.
 
 </p>
 <p>
-Our video-based lessons teach you all that you need to know in a fun, interactive environment. No medical background is required. It’s all online, so you can learn at your own pace and on your own schedule. The 40 hour course is available to speakers of 13 languages. The 80 hour course is available to speakers of 7 languages.
+Our video-based lessons teach you all that you need to know in a fun, interactive environment. No medical background is required. It’s all online, so you can learn at your own pace and on your own schedule. The 40 hour course is available to speakers of 13 languages. The 60 hour course is available to speakers of 7 languages.
 </p>
 <p>
   <span style={{fontSize:'14px',textTransform:'capitalize',fontWeight:'600'}}>When you enroll you get:</span>
@@ -118,9 +118,9 @@ And more…
 <span  className=" cta__button  btn ">
 Learn More About 40 Hour Course <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> </span>
 </Link>
-<Link  className="cta" to="/services/training/80-hour-course">
+<Link  className="cta" to="/services/training/60-hour-course">
 <span  className=" cta__button  btn ">
-Learn More About 80 Hour Course <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> </span>
+Learn More About 60 Hour Course <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> </span>
 </Link>
 </div>
 </div>

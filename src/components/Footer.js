@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 
 export default function Footer(){
+  const contactNumber = '+44 7448 552945';
     return (
         <footer className="footer-section" style={{marginTop:'200px'}}>
   <div className="container relative">
     <div className="sofa-img">
-      <img src="/images/ZEBA_FEAUTE_IMAGE.png" alt="company-name"  className="img-fluid" />
+      <img src="/images/ZEEBA-LOGO-10.PNG" alt="company-name"  className="img-fluid" />
     </div>
     <div className="row">
       <div className="col-lg-8">
@@ -51,19 +52,36 @@ export default function Footer(){
           <div className="col-6 col-sm-6 col-md-3">
             <ul className="list-unstyled">
               <li><Link to="/about">About us</Link></li>
-              <li><Link to="/services">Services</Link></li>
-              <li><Link to="/resources/blog">Blog</Link></li>
+              <li><Link to="/services/interpreting">Services</Link></li>
+              <li><Link to="/join-our-team">Join Our Team</Link></li>
               <li><Link to="/contact-us">Contact us</Link></li>
             </ul>
           </div>
           
           <div className="col-6 col-sm-6 col-md-3">
-            <ul className="list-unstyled">
-              <li><Link to="/jobs">Jobs</Link></li>
-              <li><Link to="/our-team">Our team</Link></li>
-              <li><Link to="/leadership">Leadership</Link></li>
-              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
-            </ul>
+          <ul className="list-unstyled pl-md-5 mb-5">
+<li className="d-flex  mb-2">
+<span className="mr-3">
+  <span className="icon-map" style={{marginRight:'10px'}}>
+  <i class="fa fa-map" aria-hidden="true"></i>
+  </span>
+</span> SPC FREE ZONE  <br/> E311, Sheikh Mohammad Bin Zayed Rd, <br/>Sharjah, U.A.E
+</li>
+<li className="d-flex  mb-2">
+  <span className="mr-3">
+    <span className="icon-phone" style={{marginRight:'10px'}}>
+    <i class="fa fa-phone" aria-hidden="true"></i>
+    </span>
+    </span> {contactNumber}
+    </li>
+<li className="d-flex ">
+  <span className="mr-3">
+    <span className="icon-envelope-o" style={{marginRight:'10px'}}>
+    <i class="fa fa-envelope" aria-hidden="true"></i>
+    </span>
+    </span> info@zeebahsolutions.com 
+    </li>
+</ul>
           </div>
           
         </div>

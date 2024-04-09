@@ -1,7 +1,7 @@
 import './ContactUsForm.css';
 
 export default function ContactUsForm() {
-    const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
     return (
       <>
         <div className="we-help-section" style={{marginTop:'50px',marginBottom:'-100px'}}>
@@ -26,7 +26,29 @@ export default function ContactUsForm() {
 
             To learn how we can help you with our telephone, conference, or face-to-face interpreting services, <b>please fill out our contact form above</b>, or <b>call us at {contactNumber}</b>.
             </p>
-            
+            <ul className="list-unstyled pl-md-5 mb-5">
+<li className="d-flex text-black mb-2">
+<span className="mr-3">
+  <span className="icon-map" style={{marginRight:'10px'}}>
+  <i class="fa fa-map" aria-hidden="true"></i>
+  </span>
+</span> SPC FREE ZONE  <br/> E311, Sheikh Mohammad Bin Zayed Rd, <br/>Sharjah, U.A.E
+</li>
+<li className="d-flex text-black mb-2">
+  <span className="mr-3">
+    <span className="icon-phone" style={{marginRight:'10px'}}>
+    <i class="fa fa-phone" aria-hidden="true"></i>
+    </span>
+    </span> {contactNumber}
+    </li>
+<li className="d-flex text-black">
+  <span className="mr-3">
+    <span className="icon-envelope-o" style={{marginRight:'10px'}}>
+    <i class="fa fa-envelope" aria-hidden="true"></i>
+    </span>
+    </span> info@zeebahsolutions.com 
+    </li>
+</ul>
             {/* <p><Link to="/services" className="btn">Explore Our Services</Link></p> */}
           </div>
           <div className="col-lg-7 ">

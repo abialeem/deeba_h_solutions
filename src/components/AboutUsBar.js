@@ -7,11 +7,11 @@ function AboutUsBar(){
 				<div className="row">
                 {/* <!-- Start Column 1 --> */}
                 <div className="col-md-12 col-lg-12 mb-12 mb-lg-0 " style={{ textAlign: 'center', paddingLeft: '100px', paddingRight: '100px' }}>
-                  <h2 className="mb-4 section-title" style={{ fontSize: '35px', fontWeight: 'bold',color: 'white',textTransform:'uppercase' }}>Preparing For Your Test?</h2>
-                  <p className="mb-4" style={{color:'white'}}>View our test prep materials or FAQ’s for common questions about taking a test.</p>
+                  <h2 className="mb-4 section-title" style={{ fontSize: '35px', fontWeight: 'bold',color: 'white',textTransform:'uppercase' }}>Need Help While Choosing Your Desired Services?</h2>
+                  <p className="mb-4" style={{color:'white'}}>Reach Out To Us Now</p>
                    <p style={{marginTop:'30px'}}>
-                    <Link to="view-test-prep" className="btn btn-white-outline" style={{marginRight:'30px'}}>VIEW TEST PREP</Link>
-                    <Link to="about/faqs" className="btn btn-secondary">VIEW FAQS</Link>
+                    <Link to="/about" className="btn btn-white-outline" style={{marginRight:'30px'}}>ABOUT US</Link>
+                    <Link to="/contact-us" className="btn btn-secondary">CONTACT US</Link>
                     </p>
                  </div>
 					{/* <!-- End Column 1 --> */}

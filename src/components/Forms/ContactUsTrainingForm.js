@@ -1,7 +1,7 @@
 import './ContactUsForm.css';
 
 export default function ContactUsTrainingForm() {
-    const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
     return (
       <>
         <div className="we-help-section" style={{marginTop:'-50px',marginBottom:'-150px'}}>
@@ -10,9 +10,11 @@ export default function ContactUsTrainingForm() {
           
           <div className="col-lg-5" >
             <span>CONTACT US</span>
-            <h2 className="section-title mb-4" style={{fontWeight:'600',fontSize:'30px',marginTop:'20px'}}>Have Questions About Our Interpreter Training Courses?</h2>
+            <h2 className="section-title mb-4" style={{fontWeight:'600',fontSize:'30px',marginTop:'20px'}}>
+              Have Questions About Our Interpreter Training Courses?
+              </h2>
            
-            <p class="has-xl-font-size" style={{
+            <p className="has-xl-font-size" style={{
               fontSize:'15px',
               lineHeight:'30px',
               fontWeight:'500'
@@ -20,7 +22,29 @@ export default function ContactUsTrainingForm() {
 
 Interested in our services? Complete the form to receive a free quote or <b>call us at {contactNumber}</b>.
             </p>
-            
+            <ul className="list-unstyled pl-md-5 mb-5">
+<li className="d-flex text-black mb-2">
+<span className="mr-3">
+  <span className="icon-map" style={{marginRight:'10px'}}>
+  <i class="fa fa-map" aria-hidden="true"></i>
+  </span>
+</span> SPC FREE ZONE  <br/> E311, Sheikh Mohammad Bin Zayed Rd, <br/>Sharjah, U.A.E
+</li>
+<li className="d-flex text-black mb-2">
+  <span className="mr-3">
+    <span className="icon-phone" style={{marginRight:'10px'}}>
+    <i class="fa fa-phone" aria-hidden="true"></i>
+    </span>
+    </span> {contactNumber}
+    </li>
+<li className="d-flex text-black">
+  <span className="mr-3">
+    <span className="icon-envelope-o" style={{marginRight:'10px'}}>
+    <i class="fa fa-envelope" aria-hidden="true"></i>
+    </span>
+    </span> info@zeebahsolutions.com 
+    </li>
+</ul>
             {/* <p><Link to="/services" className="btn">Explore Our Services</Link></p> */}
           </div>
           <div className="col-lg-7 ">
@@ -180,7 +204,7 @@ Interested in our services? Complete the form to receive a free quote or <b>call
           className="gfield-choice-input"
           name="input_8.1"
           type="checkbox"
-          defaultValue="40-Hour Medical Interpreter Training - Online $650"
+          defaultValue="40-Hour Medical Interpreter Training - Online $200"
           id="choice_33_8_1"
         />
         <label
@@ -188,7 +212,7 @@ Interested in our services? Complete the form to receive a free quote or <b>call
           id="label_33_8_1"
           className="gform-field-label gform-field-label--type-inline"
         >
-          40-Hour Medical Interpreter Training - Online $650
+          40-Hour Medical Interpreter Training - Online $200
         </label>
       </div>
       <div className="gchoice gchoice_33_8_2">
@@ -196,7 +220,7 @@ Interested in our services? Complete the form to receive a free quote or <b>call
           className="gfield-choice-input"
           name="input_8.2"
           type="checkbox"
-          defaultValue="80-Hour Medical Interpreter Training - Online $995"
+          defaultValue="60-Hour Medical Interpreter Training - Online $350"
           id="choice_33_8_2"
         />
         <label
@@ -204,7 +228,7 @@ Interested in our services? Complete the form to receive a free quote or <b>call
           id="label_33_8_2"
           className="gform-field-label gform-field-label--type-inline"
         >
-          80-Hour Medical Interpreter Training - Online $995
+          60-Hour Medical Interpreter Training - Online $350
         </label>
       </div>
       <div className="gchoice gchoice_33_8_3">
