@@ -1,30 +1,18 @@
 import ContactUsTranslationForm from "../../Forms/ContactUsTranslationForm"
 import { Link } from 'react-router-dom';
+import Hero from "../../Hero";
 
 function VoiceOverDubbing() {
-  const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
   return (
     <>
-  <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'34px'}}>Voice Over Services, Dubbing, and Audio Translation</h1>
-                        <p  className="mb-4">Because our service is turn-key, we can take your project from an English script to a localized video in any language you need. Commonly requested services include: Spanish, Mandarin, Canadian French, US and British English voice over services, English and Spanish video captioning, and more.</p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/R.09e1442f6413b78a73ce237c159ddb13?rik=cDQxr1ZuwsYmMA&riu=http%3a%2f%2fafaqtranslations.com%2fwp-content%2fuploads%2f2019%2f09%2fserv-voiceover-dubbing.jpg&ehk=rhheO%2fRmlAhqcl1HuHQbciRp%2bGWT%2bdILeTZ%2fATBqaR0%3d&risl=&pid=ImgRaw&r=0" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+    <Hero 
+    heading='Voice Over Services, Dubbing, and Audio Translation'
+    description="Because our service is turn-key, we can take your project from an English script to a localized video in any language you need. Commonly requested services include: Spanish, Mandarin, Canadian French, US and British English voice over services, English and Spanish video captioning, and more."
+    imgSrc='/images/voiceoverDubbingFeatured.jpeg'
+    rotate='false'
+    btnShow='false'
+    />
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row justify-content-between">

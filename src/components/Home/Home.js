@@ -12,6 +12,8 @@ export default function Home() {
       heading='Industry Leading Language Services In 100+ Languages'
       description='Unlock global opportunities with our reliable and professional language services for seamless cross-cultural communication.'
       imgSrc='/images/ZEBA_FEAUTE_IMAGE.png'
+      rotate='true'
+      btnShow='true'
       />
      <Welcome/>
      <AboutUsBar/>

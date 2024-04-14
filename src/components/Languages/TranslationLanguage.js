@@ -1,35 +1,22 @@
 import ContactUsTranslationForm from "../Forms/ContactUsTranslationForm"
+import Hero from "../Hero"
 
 export default function Translation() {
   return (
     <>
-    <div  className="hero">
-    <div  className="container">
-        <div  className="row justify-content-between">
-            <div  className="col-lg-6">
-                <div  className="intro-excerpt">
-                    <h1 style={{fontSize:'44px'}}>Translation Service Languages</h1>
-                    <p  className="mb-4" style={{fontSize:'20px'}}>
-                    With our extensive range of translation services, we are proud to offer support in numerous languages, enabling us to bridge communication gaps across the globe. Our talented team of translators can assist you with the following languages.
-                       </p>
-                    
-                </div>
-            </div>
-            <div  className="col-lg-6">
-                <div  className="hero-img-wrap">
-                    <img src="https://th.bing.com/th/id/OIP.6vL3KIGlRYq2IqccGZzwJQHaE8?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+    <Hero 
+    heading='Translation Service Languages'
+    description=" With our extensive range of translation services, we are proud to offer support in numerous languages, enabling us to bridge communication gaps across the globe. Our talented team of translators can assist you with the following languages."
+    imgSrc='/images/documentTranslationFeatured.jpeg'
+    rotate='false'
+    btnShow='false'
+    />
 <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'150px',paddingRight:'150px'}}>
         <div className="row justify-content-between">
           
           <div className="col-lg-12" style={{alignContent:'center',textAlign:'center'}} >
-            <h1 className="section-title mb-4">Translation Service Languages Offered By Zeeba H Solutions</h1>
+            <h1 className="section-title mb-4">Translation Service Languages Offered By Zeebah Solutions</h1>
             {/* <h4  style={{fontWeight:'600',fontSize:'18px',lineHeight:'30px'}}>
               
             </h4> */}

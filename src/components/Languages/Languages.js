@@ -1,7 +1,9 @@
-
+import Testing from './Testing'
 
 export default function Languages() {
   return (
-    <div>Languages</div>
+    <>
+    <Testing />
+    </>
   )
 }

@@ -1,32 +1,19 @@
 import { Link } from "react-router-dom";
 import ContactUsIndustriesForm from "../Forms/ContactUsIndustriesForm";
 import './Education.css';
+import Hero from "../Hero";
 
 export default function Government() {
-  const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
   return (
     <>
- <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Language Services for Government</h1>
-                        <p  className="mb-4">
-                        Language projects at local and federal government agencies can be especially sensitive and time-restrictive. Zeeba H Solutions's government translation services provide Total Language Confidence™ through dedicated account managers, project managers and linguist teams. Our experts bring niche experience in providing translation and interpreting services to government agencies. Zeeba H Solutions’s 10,000+ linguists are subject matter experts in their respective areas and work around the globe to meet the needs of any government project
-                           </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.fHCYeWzqxZskL2CctAHWowHaE8?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <Hero 
+     heading='Language Services for Government'
+     description="Language projects at local and federal government agencies can be especially sensitive and time-restrictive. Zeeba H Solutions's government translation services provide Total Language Confidence™ through dedicated account managers, project managers and linguist teams. Our experts bring niche experience in providing translation and interpreting services to government agencies. Zeeba H Solutions’s 10,000+ linguists are subject matter experts in their respective areas and work around the globe to meet the needs of any government project."
+     imgSrc='/images/governmentFeatured.webp'
+     rotate='false'
+     btnShow='false'
+    />
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row ">

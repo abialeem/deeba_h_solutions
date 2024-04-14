@@ -1,31 +1,19 @@
 // import {Link} from  'react-router-dom'
 import ContactUsForm from '../../Forms/ContactUsForm'
+import Hero from '../../Hero'
 import IndustriesFeatured from '../../IndustriesFeatured'
 
 function OnSiteInterpretation() {
   return (
     <>
-     <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1>Whatever you need to say, our expert linguists will say for you</h1>
-                        <p  className="mb-4">In complex or sensitive situations, face to face interpreting is the perfect solution, enabling you to communicate with a clear and accurate mutual understanding.</p>
-                        {/* <p> */}
-                          {/* <Link to="/contact-us"  className="btn btn-secondary me-2 shadow" id="contact-hero-btn">CONTACT US</Link> */}
-                            {/* <Link to="/services/interpreting/on-site-interpreting"  className="btn btn-white-outline shadow" id="quote-hero-btn">Find Out More</Link>
-                            </p> */}
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src={process.env.PUBLIC_URL + "/images/onsite_interpretation_feature_1.webp" } alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <Hero 
+    heading='Whatever you need to say, our expert linguists will say for you'
+    description='In complex or sensitive situations, face to face interpreting is the perfect solution, enabling you to communicate with a clear and accurate mutual understanding.'
+    imgSrc='/images/onsite_interpretation_feature_1.webp'
+    rotate='false'
+    btnShow='false'
+    />
+     
     
           <div className="row justify-content-between" style={{marginTop:'100px'}}>
             <div className="col-lg-12" style={{ textAlign: 'center' }}>

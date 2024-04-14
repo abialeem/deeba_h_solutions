@@ -1,7 +1,7 @@
-
+import SpeakingListeningAssessment from './SpeakingListeningAssessment'
 function Testing() {
   return (
-    <div>Testing</div>
+    <SpeakingListeningAssessment />
   )
 }
 

@@ -1,60 +1,18 @@
 import ContactUsTrainingForm from "../../Forms/ContactUsTrainingForm";
+import Hero from "../../Hero";
 
 export default function SixtyHourCourse(){
 
     return(
         <>
-  <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <span style={{color:'white'}}>60-HOUR MEDICAL INTERPRETER TRAINING</span>
-                        <h1 style={{fontSize:'44px'}}>
-                        Launch your Interpreting Career with Twice the Confidence!
-                            </h1>
-                        <p  className="mb-4">
-                        Get the extra practice and professional training you need to excel as a medical interpreter from your very first day. (Currently available for Arabic, Cantonese, Korean, Mandarin, Russian, Spanish and Vietnamese students only)
-                        </p>
-                        <div>
-                        <ul className='col-lg-12 custom-list-type1' style={{padding:'10px',fontSize:'16px',textAlign:'left'}} type='none'>
-  <li style={{margin:'10px'}}>
-  <i aria-hidden="true" class="fas fa-check-circle" style={{marginRight:'10px',color:'#ffff'}}></i> 
-            <span style={{color:'white'}}>
-            Interpretation Roles & Techniques
-            </span>
-    </li> 
-    <li style={{margin:'10px'}}>
-  <i aria-hidden="true" class="fas fa-check-circle" style={{marginRight:'10px',color:'#ffff'}}></i> 
-            <span  style={{color:'white'}}>
-            More Live Coaching
-            </span>
-    </li> 
-    <li style={{margin:'10px'}}>
-  <i aria-hidden="true" class="fas fa-check-circle" style={{marginRight:'10px',color:'#ffff'}}></i> 
-            <span  style={{color:'white'}}>
-            Free Exam Prep Course
-            </span>
-    </li> 
-    </ul>
-                        </div>
-                        <p>
-                            <a href='#contactform' className="btn btn-secondary">GET STARTED</a>
-                        </p>
-                        
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.OWGBtjqXTUPRc-WJaKOJkwHaE8?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+        <Hero 
+        heading='60-HOUR MEDICAL INTERPRETER TRAINING'
+        description="Launch your Interpreting Career with Twice the Confidence! Get the extra practice and professional training you need to excel as a medical interpreter from your very first day. (Currently available for Arabic, Cantonese, Korean, Mandarin, Russian, Spanish and Vietnamese students only)"
+        imgSrc='/images/FortyHourCourseFeatured.jpeg'
+        rotate='false'
+        btnShow='false'
+        />
+ 
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row justify-content-between">
@@ -72,7 +30,7 @@ export default function SixtyHourCourse(){
             <div className="hero-img-wrap" style={{marginLeft:'40px'}}>
               
                 <img 
-                src="https://en-us.thebigword.com/wp-content/uploads/2022/01/shutterstock_1755781619-1024x683.jpg.webp"
+                src={process.env.PUBLIC_URL +"/images/SixtyHourCoursePagIMG1.webp"}
                  alt="Untree.co"
                  style={{width:'600px',borderRadius:'20px'}}
                   />
@@ -91,7 +49,7 @@ export default function SixtyHourCourse(){
             <div className="hero-img-wrap" >
               
                 <img 
-                src="https://www.marketing91.com/wp-content/uploads/2020/11/coaching.jpg"
+                src={process.env.PUBLIC_URL +"/images/SixtyHourCoursePagIMG2.jpeg"}
                  alt="Untree.co"
                  style={{width:'600px',borderRadius:'20px'}}
                   />

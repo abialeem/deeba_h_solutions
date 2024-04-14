@@ -1,31 +1,17 @@
 
 import ContactUsTestingForm from "../../Forms/ContactUsTestingForm"
+import Hero from "../../Hero"
 
 function TranslationAssessment() {
   return (
     <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Translation Assessment</h1>
-                        <p  className="mb-4">
-
-                        Translation is the rendering of text from one language into another. It not only requires an expert level of proficiency in reading and writing in both languages, but the ability to capture the nuances, style, tone, and intent of the original message. Translators must be able to select equivalent terms or phrases to best preserve the meaning of the source document as well as to convey cultural undertones.
-                        </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.-LyuWa4ttswSxg6XGhnFrgHaE8?w=1254&h=836&rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+  <Hero 
+   heading='Translation Assessment'
+   description="Translation is the rendering of text from one language into another. It not only requires an expert level of proficiency in reading and writing in both languages, but the ability to capture the nuances, style, tone, and intent of the original message. Translators must be able to select equivalent terms or phrases to best preserve the meaning of the source document as well as to convey cultural undertones."
+   imgSrc='/images/translationAssessmentFeatured.jpeg'
+   rotate='false'
+   btnShow='false'
+  />
                 {/** more content here */}
 
                 <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>

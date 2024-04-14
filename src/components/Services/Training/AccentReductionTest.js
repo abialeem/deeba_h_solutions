@@ -1,48 +1,17 @@
 // import { Link } from "react-router-dom";
 import ContactUsSimpleForm from "../../Forms/ContactUsSimpleForm";
+import Hero from "../../Hero";
 
 export default function AccentReductionTest(){
     return(
         <>
-        <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>
-                            Learn To Speak Like A Native Speaker
-                            </h1>
-                        <p  className="mb-4">
-                        Zeeba H Solutions’s unique accent reduction training helps you reduce your accent to communicate more effectively in American English.
-                        </p>
-                        <p>
-                        <ul>
-    <li>
-Interactive video lessons</li>
-<li>
-Optional weekly live sessions with a teacher
-</li>
-<li>
-Certificate of qualification
-</li>
-<li>
-And more…
-</li>
-  </ul>
-                        </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://www.letsexpresso.com/wp-content/uploads/2020/01/read-for-greed.jpg" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+        <Hero 
+         heading='Learn To Speak Like A Native Speaker'
+         description="Zeeba H Solutions’s unique accent reduction training helps you reduce your accent to communicate more effectively in American English."
+         imgSrc='/images/videoRemoteInterpretingFeatured.webp'
+         rotate='false'
+         btnShow='false'
+        />
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row justify-content-between">
@@ -150,7 +119,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 <img 
 decoding="async" 
 
-src="https://en-us.thebigword.com/wp-content/uploads/2023/08/AdobeStock_227633637-1024x642.jpeg.webp"
+src={process.env.PUBLIC_URL + "/images/accentReductionIMG1.webp"}
 class="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
 alt={Math.random()+'image-not-icon'}/>
  </div>
@@ -180,7 +149,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 <img 
 decoding="async" 
 
-src="https://en-us.thebigword.com/wp-content/uploads/2023/08/AdobeStock_486843796-1024x683.jpeg.webp"
+src={process.env.PUBLIC_URL + "/images/accentReductionIMG2.jpeg"}
 class="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
 alt={Math.random()+'image-not-icon'}/>
  </div>

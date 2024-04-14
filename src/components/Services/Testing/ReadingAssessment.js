@@ -1,27 +1,15 @@
 import ContactUsTestingForm from "../../Forms/ContactUsTestingForm"
+import Hero from "../../Hero"
 function ReadingAssessment() {
   return (
    <>
- <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Reading Skills Assessment</h1>
-                        <p  className="mb-4">
-                        If your organization receives documents in different languages, you need to verify that the employees handling those documents are proficient in reading. Zeeba H Solutions offers a wide range of Reading Skills Assessments in various content areas (e.g., general, customer service, government, legal, etc.) and at different levels of our 12-point scale. Zeeba H Solutions’s reading exams are offered in most of the 90+ languages that we test. Since they are completed online and are automatically scored, you receive results immediately. This makes it easy and efficient for you to screen your candidates on the spot, whether you are hiring to fill a bilingual position or recruiting personnel for an overseas operation.
-                        </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://miro.medium.com/max/10944/1*S81O15rjKfG-BFdnNC6-GQ.jpeg" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   <Hero 
+   heading='Reading Skills Assessment'
+   description="If your organization receives documents in different languages, you need to verify that the employees handling those documents are proficient in reading. Zeeba H Solutions offers a wide range of Reading Skills Assessments in various content areas (e.g., general, customer service, government, legal, etc.) and at different levels of our 12-point scale. Zeeba H Solutions’s reading exams are offered in most of the 90+ languages that we test. Since they are completed online and are automatically scored, you receive results immediately. This makes it easy and efficient for you to screen your candidates on the spot, whether you are hiring to fill a bilingual position or recruiting personnel for an overseas operation."
+   imgSrc='/images/readingSkillsAssessmentFeatured.jpeg'
+   rotate='false'
+   btnShow='false'
+   />
 
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>

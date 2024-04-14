@@ -1,29 +1,19 @@
 import ContactUsForm from '../../Forms/ContactUsForm'
+import Hero from '../../Hero';
 import './OverPhoneInterpreting.css'
 import { Link } from 'react-router-dom';
 
 function OverPhoneInterpreting() {
   return (
     <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1>Overcome any language barrier in a matter of seconds</h1>
-                        <p  className="mb-4">In some situations, we appreciate that geographical limitations and time constraints do not allow for onsite interpreting support, which is where Over-Phone Interpreting can be utilised as an efficient and affordable solution for effective multilingual communication.</p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://en-us.thebigword.com/wp-content/uploads/2023/08/AdobeStock_227633637-1024x642.jpeg.webp" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <Hero 
+    heading='Overcome any language barrier in a matter of seconds'
+    description='In some situations, we appreciate that geographical limitations and time constraints do not allow for onsite interpreting support, which is where Over-Phone Interpreting can be utilised as an efficient and affordable solution for effective multilingual communication.'
+    imgSrc='/images/overPhoneInterpretingFeatured.webp'
+    rotate='false'
+    btnShow='false'
+    />
+    
     {/* second section starts here */}
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>

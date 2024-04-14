@@ -1,31 +1,19 @@
 import { Link } from "react-router-dom";
 import ContactUsIndustriesForm from "../Forms/ContactUsIndustriesForm";
 import './Education.css';
+import Hero from "../Hero";
 
 export default function HumanResources() {
-  const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
   return (
     <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Language Services for Human Resources</h1>
-                        <p  className="mb-4">
-                        Whether it is for bilingual incentives or to determine whether a candidate has the skills needed for a task, you want to be certain that the testing you use is valid and reliable. 
-                           </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.nw6Jlr7qq4E--QdyazAx_gHaE_?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <Hero 
+    heading='Language Services for Human Resources'
+    description=" Whether it is for bilingual incentives or to determine whether a candidate has the skills needed for a task, you want to be certain that the testing you use is valid and reliable. "
+    imgSrc='/images/hrFeatured.webp'
+    rotate='false'
+    btnShow='false'
+    />
 
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>

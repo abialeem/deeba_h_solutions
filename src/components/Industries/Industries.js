@@ -1,7 +1,7 @@
-
+import Education from './Education';
 
 export default function Industries() {
   return (
-    <div>Industries</div>
+    <Education />
   )
 }

@@ -38,9 +38,17 @@
             
   }
   .nav_dropdowns_lvl_1 a:hover {
-            color:#4a9177;
+            background:#3b5d50 ;
+            color:#fff;
             font-weight:600;
   }
+  
+  .active {
+  background:#3b5d50  !important;
+    color:#fff;
+    font-weight:600;
+  }
+  
  
   #contact-nav-btn{
     padding-left: 20px;

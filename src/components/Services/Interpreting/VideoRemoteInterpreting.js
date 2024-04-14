@@ -1,27 +1,17 @@
 import ContactUsForm from '../../Forms/ContactUsForm'
+import Hero from '../../Hero'
 
 
 function VideoRemoteInterpreting() {
   return (
     <>
-     <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Visual and verbal interpreting, whenever and wherever it suits you</h1>
-                        <p  className="mb-4">Sometimes just verbal communication is not enough. Our high-speed video interpreting service gives you instant access to trained interpreting professionals, specialising in spoken or sign language services via digital face-to-face media.</p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://en-us.thebigword.com/wp-content/uploads/2023/08/AdobeStock_486843796-1024x683.jpeg.webp" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <Hero
+      heading='Visual and verbal interpreting, whenever and wherever it suits you'
+      description='Sometimes just verbal communication is not enough. Our high-speed video interpreting service gives you instant access to trained interpreting professionals, specialising in spoken or sign language services via digital face-to-face media.'
+      imgSrc='/images/videoRemoteInterpretingFeatured.webp'
+      rotate='false'
+      btnShow='false'
+    />
 
     <div className="we-help-section" style={{marginTop:'0px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>

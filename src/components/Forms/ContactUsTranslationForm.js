@@ -12,7 +12,7 @@ export default function ContactUsTranslationForm() {
             <span>CONTACT US</span>
             <h2 className="section-title mb-4" style={{fontWeight:'600',fontSize:'30px',marginTop:'20px'}}>Get a Free Estimate!</h2>
            
-            <p class="has-xl-font-size" style={{
+            <p className="has-xl-font-size" style={{
               fontSize:'15px',
               lineHeight:'30px',
               fontWeight:'500'
@@ -25,21 +25,21 @@ Interested in our translation services? Complete the form to receive a free quot
 <li className="d-flex text-black mb-2">
 <span className="mr-3">
   <span className="icon-map" style={{marginRight:'10px'}}>
-  <i class="fa fa-map" aria-hidden="true"></i>
+  <i className="fa fa-map" aria-hidden="true"></i>
   </span>
 </span> SPC FREE ZONE  <br/> E311, Sheikh Mohammad Bin Zayed Rd, <br/>Sharjah, U.A.E
 </li>
 <li className="d-flex text-black mb-2">
   <span className="mr-3">
     <span className="icon-phone" style={{marginRight:'10px'}}>
-    <i class="fa fa-phone" aria-hidden="true"></i>
+    <i className="fa fa-phone" aria-hidden="true"></i>
     </span>
     </span> {contactNumber}
     </li>
 <li className="d-flex text-black">
   <span className="mr-3">
     <span className="icon-envelope-o" style={{marginRight:'10px'}}>
-    <i class="fa fa-envelope" aria-hidden="true"></i>
+    <i className="fa fa-envelope" aria-hidden="true"></i>
     </span>
     </span> info@zeebahsolutions.com 
     </li>
@@ -372,8 +372,7 @@ Interested in our translation services? Complete the form to receive a free quot
       id="gform_submit_button_28"
       className="btn btn-success btn-lg my-3"
       defaultValue="Get Started!"
-      onclick=''
-      onkeypress=''
+      onClick=''
     />
    
   </div>

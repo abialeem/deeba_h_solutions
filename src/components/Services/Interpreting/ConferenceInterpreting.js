@@ -1,28 +1,18 @@
 import ContactUsForm from '../../Forms/ContactUsForm'
 import FieldsFeatured from "../../FieldsFeatured"
 import './OverPhoneInterpreting.css'
+import Hero from '../../Hero'
 function ConferenceInterpreting() {
   return (
     <>
-     <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Conference Interpreting For Education, Medical, Government & More.</h1>
-                        <p  className="mb-4">Zeeba H Solutions improves multilingual conference and meeting communication for government, healthcare, legal and insurance organizations every day. </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://new.translators-usa.com/wp-content/uploads/2022/01/Conference-Interpreting2-Translators-USA-LLC-1.jpeg" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <Hero 
+    heading='Conference Interpreting For Education, Medical, Government & More.'
+    description='Zeeba H Solutions improves multilingual conference and meeting communication for government, healthcare, legal and insurance organizations every day. '
+    imgSrc='/images/conferenceInterpretingFeatured.jpeg'
+    rotate='false'
+    btnShow='false'
+    />
+    
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'100px',paddingRight:'100px'}}>
         <div className="row justify-content-between">

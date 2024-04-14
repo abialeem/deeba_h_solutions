@@ -1,32 +1,20 @@
 import { Link } from "react-router-dom";
 import ContactUsIndustriesForm from "../Forms/ContactUsIndustriesForm";
 import './Education.css';
+import Hero from "../Hero";
 
 
 export default function Healthcare() {
-  const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
   return (
     <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Your One-Stop Solution For Language Access In Healthcare</h1>
-                        <p  className="mb-4">
-                        The path to better health outcomes requires effective communication with your multicultural populations. Through our healthcare language translation services and our decades of experience, we create tailored solutions that bridge language and cultural gaps across the healthcare journey, drive engagement, and allow you to increase your reach and market share.
-                           </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.BNXEm2h228OY5kmdUesnywHaE1?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <Hero 
+     heading='Your One-Stop Solution For Language Access In Healthcare'
+     description="The path to better health outcomes requires effective communication with your multicultural populations. Through our healthcare language translation services and our decades of experience, we create tailored solutions that bridge language and cultural gaps across the healthcare journey, drive engagement, and allow you to increase your reach and market share."
+     imgSrc='/images/healthcareFeatured.webp'
+     rotate='false'
+     btnShow='false'
+    />
 
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>

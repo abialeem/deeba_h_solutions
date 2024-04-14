@@ -1,33 +1,18 @@
 import ContactUsIndustriesForm from "../Forms/ContactUsIndustriesForm";
 import { Link } from "react-router-dom";
+import Hero from "../Hero";
 
 export default function About() {
-  const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
   return (
     <>
-     <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1>ABOUT US</h1>
-                        <h4  className="mb-4" style={{color:'white'}}>Beyond Words: Innovators in Language Training Programs</h4>
-                        {/* <h4 className="mb-4" style={{color:'white'}}>Striving To Make The World Truely Global Village</h4> */}
-                        {/* <p style={{marginTop:'50px'}}>
-                            <Link to="/contact-us"  className="btn btn-secondary me-2 shadow" id="contact-hero-btn">CONTACT US</Link>
-                            <Link to="/get-a-quote"  className="btn btn-white-outline shadow" id="quote-hero-btn">GET A FREE QUOTE</Link>
-                            </p> */}
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap" >
-                        <img src={process.env.PUBLIC_URL + "/images/ZEEBA-LOGO.png"} alt="feautred_images_front"  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <Hero 
+    heading='ABOUT US'
+    description="Beyond Words: Innovators in Language Training Programs."
+    imgSrc='/images/ZEEBA-LOGO.png'
+    rotate='true'
+    btnShow='true'
+    />
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row justify-content-between">
@@ -37,12 +22,12 @@ export default function About() {
             <h2 className="section-title mb-4" style={{fontWeight:'600',fontSize:'44px'}}>
               Professional and Ready-To-Go Languages Services
               </h2>
-           <p class="has-xl-font-size" style={{
+           <p className="has-xl-font-size" style={{
               fontSize:'20px',
               lineHeight:'30px',
             }}>
-          Zeeba H Solutions Language Services has provided professional translation, training, and testing services 
-          for over 40 years. Because every Zeeba H Solutions employee is also a part-owner in the company, you can be confident that our 
+          Zeebah Solutions Language Services has provided professional translation, training, and testing services 
+          for over 40 years. Because every Zeebah Solutions employee is also a part-owner in the company, you can be confident that our 
           team will be dedicated to supporting you throughout your journey. 
           Our purpose is to help you communicate across barriers in language and culture.
 </p>
@@ -54,32 +39,32 @@ export default function About() {
           <p className='card-text row' style={{fontSize:'15px',fontWeight:'400',lineHeight:'25px',margin:'10px'}}>
 <ul className='col-12 custom-list-type1' style={{padding:'10px',fontSize:'20px'}} type='none'>
   <li style={{margin:'10px'}}>
-  <i aria-hidden="true" class="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
+  <i aria-hidden="true" className="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
     <span>On-Site Interpretation</span>
     </li>
   <li style={{margin:'10px'}}> 
-    <i aria-hidden="true" class="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
+    <i aria-hidden="true" className="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
     <span>Over the phone Interpretation</span></li>
   <li style={{margin:'10px'}}> 
-    <i aria-hidden="true" class="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
+    <i aria-hidden="true" className="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
     <span>Legal Translation</span></li>
   <li style={{margin:'10px'}}> 
-    <i aria-hidden="true" class="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
+    <i aria-hidden="true" className="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
     <span>Govt Translation</span></li>
   <li style={{margin:'10px'}}>
-     <i aria-hidden="true" class="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
+     <i aria-hidden="true" className="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
     <span>Language Testing</span></li>
     <li style={{margin:'10px'}}>
-     <i aria-hidden="true" class="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
+     <i aria-hidden="true" className="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
     <span>Accent Reduction</span></li>
     <li  style={{margin:'10px'}}>
-     <i aria-hidden="true" class="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
+     <i aria-hidden="true" className="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
     <span>Legal Documentation</span></li>
     <li style={{margin:'10px'}}>
-     <i aria-hidden="true" class="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
+     <i aria-hidden="true" className="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
     <span>Public Software Localization</span></li>
     <li style={{margin:'10px'}}>
-    <i aria-hidden="true" class="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
+    <i aria-hidden="true" className="fas fa-check-circle" style={{marginRight:'10px'}}></i> 
             <span>And much much more...</span>
     </li>
 </ul>
@@ -99,7 +84,7 @@ export default function About() {
            
             {/* <p><Link to="/services" className="btn">Explore Our Services</Link></p> */}
           </div>
-          <div className="col-lg-4" style={{marginBottom:'20px'}}>
+          <div className="col-lg-4 col-sm-12 col-md-12 col-xs-12" style={{marginBottom:'20px'}}>
 {/** widget starts */}
 <div  className="widget-container w-100 h-100">
 <Link  className="cta" to="/services/interpreting/on-site-interpreting">
@@ -110,7 +95,7 @@ export default function About() {
 decoding="async" 
 
 src="https://ulanguage.com/wp-content/uploads/2020/07/interp2-1024x682.jpg"
-class="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
+className="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
 alt={Math.random()+'image-not-icon'}/>
  </div>
 </div>
@@ -118,7 +103,7 @@ alt={Math.random()+'image-not-icon'}/>
 On-Site Interpretation
 </h3>
 <div  className=" cta__description  cta__content-item  content-item" styl={{height:'400px'}}>
-Here at Zeeba H Solutions, we will find you the perfect interpreter to attend your lecture, meeting, conference, or assembly, as well as arrange any travel and any necessary equipment. </div>
+Here at Zeebah Solutions, we will find you the perfect interpreter to attend your lecture, meeting, conference, or assembly, as well as arrange any travel and any necessary equipment. </div>
 <div  className=" cta__button-wrapper  cta__content-item  content-item ">
 <span  className=" cta__button  btn ">
 Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> </span>
@@ -128,7 +113,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 </div>
               {/** widget ends */}
         </div>
-        <div className="col-lg-4" style={{marginBottom:'20px'}}>
+        <div className="col-lg-4 col-sm-12 col-md-12" style={{marginBottom:'20px'}}>
 {/** widget starts */}
 <div  className="widget-container w-100 h-100">
 <Link  className="cta" to="/services/interpreting/over-phone-interpreting">
@@ -139,7 +124,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 decoding="async" 
 
 src="https://en-us.thebigword.com/wp-content/uploads/2023/08/AdobeStock_227633637-1024x642.jpeg.webp"
-class="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
+className="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
 alt={Math.random()+'image-not-icon'}/>
  </div>
 </div>
@@ -158,7 +143,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 </div>
               {/** widget ends */}
         </div>
-        <div className="col-lg-4" style={{marginBottom:'20px'}}>
+        <div className="col-lg-4 col-sm-12 col-md-12" style={{marginBottom:'20px'}}>
 
 {/** widget starts */}
 <div  className="widget-container w-100 h-100">
@@ -170,7 +155,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 decoding="async" 
 
 src="https://en-us.thebigword.com/wp-content/uploads/2023/08/AdobeStock_486843796-1024x683.jpeg.webp"
-class="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
+className="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
 alt={Math.random()+'image-not-icon'}/>
  </div>
 </div>
@@ -189,7 +174,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 </div>
               {/** widget ends */}
         </div>
-        <div className="col-lg-4" style={{marginBottom:'20px'}}>
+        <div className="col-lg-4 col-sm-12 col-md-12" style={{marginBottom:'20px'}}>
 {/** widget starts */}
 <div  className="widget-container w-100 h-100">
 <Link  className="cta" to="/services/translation/document">
@@ -200,7 +185,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 decoding="async" 
 
 src="https://th.bing.com/th/id/OIP.IJPqESU0P6IWIWhNp7aOJgHaFM?rs=1&pid=ImgDetMain"
-class="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
+className="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
 alt={Math.random()+'image-not-icon'}/>
  </div>
 </div>
@@ -208,7 +193,7 @@ alt={Math.random()+'image-not-icon'}/>
 Government Document Translation
 </h3>
 <div  className=" cta__description  cta__content-item  content-item" styl={{height:'400px'}}>
-Here at Zeeba H Solutions, we will find you the perfect professional translator to attend your presentations, meeting, conference, or assembly, as well as arrange any travel and any necessary equipment. </div>
+Here at Zeebah Solutions, we will find you the perfect professional translator to attend your presentations, meeting, conference, or assembly, as well as arrange any travel and any necessary equipment. </div>
 <div  className=" cta__button-wrapper  cta__content-item  content-item ">
 <span  className=" cta__button  btn ">
 Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> </span>
@@ -218,7 +203,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 </div>
               {/** widget ends */}
         </div>
-        <div className="col-lg-4" style={{marginBottom:'20px'}}>
+        <div className="col-lg-4 col-sm-12 col-md-12" style={{marginBottom:'20px'}}>
 {/** widget starts */}
 <div  className="widget-container w-100 h-100">
 <Link  className="cta" to="/services/translation/website">
@@ -229,7 +214,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 decoding="async" 
 
 src="https://en-us.thebigword.com/wp-content/uploads/2023/08/AdobeStock_227633637-1024x642.jpeg.webp"
-class="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
+className="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
 alt={Math.random()+'image-not-icon'}/>
  </div>
 </div>
@@ -248,7 +233,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 </div>
               {/** widget ends */}
         </div>
-        <div className="col-lg-4" style={{marginBottom:'20px'}}>
+        <div className="col-lg-4 col-sm-12 col-md-12" style={{marginBottom:'20px'}}>
 {/** widget starts */}
 <div  className="widget-container w-100 h-100">
 <Link  className="cta" to="/services/translation/software">
@@ -259,7 +244,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 decoding="async" 
 
 src="https://en-us.thebigword.com/wp-content/uploads/2023/08/AdobeStock_486843796-1024x683.jpeg.webp"
-class="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
+className="attachment-large w-100 h-100 size-large wp-image-6702 entered lazyloaded"
 alt={Math.random()+'image-not-icon'}/>
  </div>
 </div>
@@ -267,7 +252,7 @@ alt={Math.random()+'image-not-icon'}/>
 Website Software Localization
 </h3>
 <div  className=" cta__description cta__content-item  content-item" styl={{height:'400px'}}>
-Entering a new bill or schemes for citizens? With over 30 years of experience, Zeeba H Solutions is a leader in software localization projects.
+Entering a new bill or schemes for citizens? With over 30 years of experience, Zeebah Solutions is a leader in software localization projects.
  </div>
 <div  className=" cta__button-wrapper  cta__content-item  content-item ">
 <span  className=" cta__button  btn ">
@@ -305,7 +290,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row ">
 
-        <div className="col-lg-4">
+        <div className="col-lg-4 col-sm-12 col-md-12">
           {/** widget starts */}
         <div  className="widget-container w-100 h-100">
 <Link  className="cta" to="/services/interpreting/">
@@ -318,7 +303,7 @@ Learn More <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> 
 Interpretation Services 
 </h3>
 <div  className=" cta__description  cta__content-item  content-item">
-Zeeba H Solutions’s language interpreting services for education make it easy for you to communicate effectively with students, parents, and educators. </div>
+Zeebah Solutions’s language interpreting services for education make it easy for you to communicate effectively with students, parents, and educators. </div>
 <div  className=" cta__button-wrapper  w-100 h-100 cta__content-item  content-item ">
 <span  className=" cta__button  btn ">
 Interpretation <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> </span>
@@ -329,7 +314,7 @@ Interpretation <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"><
               {/** widget ends */}
               
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4 col-sm-12 col-md-12">
           {/** widget starts */}
         <div  className="widget-container w-100 h-100">
 <Link  className="cta" to="/services/translation/document/">
@@ -343,7 +328,7 @@ Interpretation <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"><
 Translation Services 
 </h3>
 <div  className=" cta__description  cta__content-item  content-item">
-Zeeba H Solutions provides certified, notarized translations for important educational documentation. </div>
+Zeebah Solutions provides certified, notarized translations for important educational documentation. </div>
 <div  className=" cta__button-wrapper  cta__content-item  content-item ">
 <span  className=" cta__button  btn ">
 Translation <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> </span>
@@ -354,7 +339,7 @@ Translation <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i>
               {/** widget ends */}
               
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4 col-sm-12 col-md-12">
           {/** widget starts */}
         <div  className="widget-container w-100 h-100">
 <Link  className="cta" to="/services/testing/speaking-listening-assessment">
@@ -368,7 +353,7 @@ Translation <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i>
 Testing Services 
 </h3>
 <div  className=" cta__description  cta__content-item  content-item">
-Zeeba H Solutions partners with hundreds of school districts across the country to verify language skills of students seeking the Seal of Biliteracy. </div>
+Zeebah Solutions partners with hundreds of school districts across the country to verify language skills of students seeking the Seal of Biliteracy. </div>
 <div  className=" cta__button-wrapper  cta__content-item  content-item ">
 <span  className=" cta__button  btn ">
 Testing <i aria-hidden="true"  className="fas fa-arrow-alt-circle-down"></i> </span>

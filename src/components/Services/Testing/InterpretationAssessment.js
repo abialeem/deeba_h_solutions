@@ -1,31 +1,18 @@
 
 import ContactUsTestingForm from "../../Forms/ContactUsTestingForm"
+import Hero from "../../Hero"
 
 function InterpretationAssessment() {
   return (
     <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Interpretation Assessment</h1>
-                        <p  className="mb-4">
-
-                        Interpretation—or orally conveying information from one language to another—requires much more than just being able to speak two languages. It is a complex method of communication requiring a high degree of accuracy and skill. Interpreters are charged with communicating information to and from the source and target languages without errors, omissions, or additions, while preserving the style and cultural elements of the original message.
-                        </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://www.cta.org/wp-content/uploads/2024/01/tpa-story-1160X700.jpg" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <Hero 
+    heading='Interpretation Assessment'
+    description="Interpretation—or orally conveying information from one language to another—requires much more than just being able to speak two languages. It is a complex method of communication requiring a high degree of accuracy and skill. Interpreters are charged with communicating information to and from the source and target languages without errors, omissions, or additions, while preserving the style and cultural elements of the original message."
+    imgSrc='/images/InterpretationAssessmentFeatured.jpeg'
+    rotate='false'
+    btnShow='false'
+    />
+   
                 {/** more content here */}
 
                 <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>

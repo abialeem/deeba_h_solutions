@@ -1,27 +1,18 @@
 import ContactUsForm from '../../Forms/ContactUsForm'
 import FieldsFeatured from "../../FieldsFeatured"
 import './RemoteSimultaneousInterpreting.css';
+import Hero from '../../Hero';
 function RemoteSimultaneousInterpreting() {
   return (
     <>
-     <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Real-Time Language Interpreters For Zoom Meetings & Webinars.</h1>
-                        <p  className="mb-4">Add remote Simultaneous Interpretation to your Zoom call, video meeting, or webinar to make sure your message comes through loud and clear for your entire audience.</p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://www.unitedlanguagegroup.com/hubfs/remote%20interpretation%20solution.png" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <Hero 
+    heading='Real-Time Language Interpreters For Zoom Meetings & Webinars.'
+    description='Add remote Simultaneous Interpretation to your Zoom call, video meeting, or webinar to make sure your message comes through loud and clear for your entire audience.'
+    imgSrc='/images/rsiFeatured.webp'
+    rotate='false'
+    btnShow='false'
+    />
+   
 
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>

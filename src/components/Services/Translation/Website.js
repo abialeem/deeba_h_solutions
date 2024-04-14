@@ -1,29 +1,18 @@
 import ContactUsTranslationForm from "../../Forms/ContactUsTranslationForm"
 import { Link } from 'react-router-dom';
+import Hero from "../../Hero";
 
 function Website() {
-  const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
   return (
     <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Website Translation Services</h1>
-                        <p  className="mb-4">In the modern digital age, bridging language barriers online to connect organizations with global audiences has never been more valuable. At Zeeba H Solutions, we’ve taken it one step further and made sure that organizations have maintained their integrity and authenticity by translating their digital content with cultural, contextual and linguistic accuracy of the target language. </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://acutrans.com/wp-content/uploads/2021/02/website-translation-1024x694.jpg" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <Hero 
+     heading='Website Translation Services'
+     description="In the modern digital age, bridging language barriers online to connect organizations with global audiences has never been more valuable. At Zeeba H Solutions, we’ve taken it one step further and made sure that organizations have maintained their integrity and authenticity by translating their digital content with cultural, contextual and linguistic accuracy of the target language."
+     imgSrc='/images/websiteTranslationFeatured.jpeg'
+     rotate='false'
+     btnShow='false'
+    />
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row justify-content-between">

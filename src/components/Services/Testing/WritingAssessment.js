@@ -1,31 +1,18 @@
 
 import ContactUsTestingForm from "../../Forms/ContactUsTestingForm"
+import Hero from "../../Hero"
 
 function WritingAssessment() {
   return (
     <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Writing Skills Test</h1>
-                        <p  className="mb-4">
-
-                        Zeeba H Solutions is a market leader in foreign language testing, performing thousands of written assessments each year to Fortune 500 companies and government agencies. When you need communications prepared in English or another language, whether a letter to a customer, marketing collateral, or other documentation, you can trust Zeeba H Solutions’s writing test to help you determine who among your candidates has the language skills to successfully represent your organization in the written materials that reach your audience.
-                        </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.Qk2Bs92F_xxbtAApremcwwHaE8?w=1440&h=961&rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <Hero 
+    heading='Writing Skills Assessment'
+    description=" Zeeba H Solutions is a market leader in foreign language testing, performing thousands of written assessments each year to Fortune 500 companies and government agencies. When you need communications prepared in English or another language, whether a letter to a customer, marketing collateral, or other documentation, you can trust Zeeba H Solutions’s writing test to help you determine who among your candidates has the language skills to successfully represent your organization in the written materials that reach your audience."
+    imgSrc='/images/writingAssessmentFeatured.jpeg'
+    rotate='false'
+    btnShow='false'
+    />
+    
                 {/** more content here */}
 
                 <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>

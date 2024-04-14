@@ -12,7 +12,7 @@ export default function ContactUsIndustriesForm() {
             <span>CONTACT US</span>
             <h2 className="section-title mb-4" style={{fontWeight:'600',fontSize:'30px',marginTop:'20px'}}>Get Started Today</h2>
            
-            <p class="has-xl-font-size" style={{
+            <p className="has-xl-font-size" style={{
               fontSize:'15px',
               lineHeight:'30px',
               fontWeight:'500'
@@ -24,21 +24,21 @@ Interested in our services? Complete the form to receive a free quote or <b>call
 <li className="d-flex text-black mb-2">
 <span className="mr-3">
   <span className="icon-map" style={{marginRight:'10px'}}>
-  <i class="fa fa-map" aria-hidden="true"></i>
+  <i className="fa fa-map" aria-hidden="true"></i>
   </span>
 </span> SPC FREE ZONE  <br/> E311, Sheikh Mohammad Bin Zayed Rd, <br/>Sharjah, U.A.E
 </li>
 <li className="d-flex text-black mb-2">
   <span className="mr-3">
     <span className="icon-phone" style={{marginRight:'10px'}}>
-    <i class="fa fa-phone" aria-hidden="true"></i>
+    <i className="fa fa-phone" aria-hidden="true"></i>
     </span>
     </span> {contactNumber}
     </li>
 <li className="d-flex text-black">
   <span className="mr-3">
     <span className="icon-envelope-o" style={{marginRight:'10px'}}>
-    <i class="fa fa-envelope" aria-hidden="true"></i>
+    <i className="fa fa-envelope" aria-hidden="true"></i>
     </span>
     </span> info@zeebahsolutions.com 
     </li>
@@ -203,7 +203,7 @@ Interested in our services? Complete the form to receive a free quote or <b>call
           type="radio"
           defaultValue="More Than One"
           id="choice_23_16_0"
-          onchange="gformToggleRadioOther( this )"
+          onChange="gformToggleRadioOther( this )"
         />
         <label
           htmlFor="choice_23_16_0"
@@ -220,7 +220,7 @@ Interested in our services? Complete the form to receive a free quote or <b>call
           type="radio"
           defaultValue="Translation Services"
           id="choice_23_16_1"
-          onchange="gformToggleRadioOther( this )"
+          onChange="gformToggleRadioOther( this )"
         />
         <label
           htmlFor="choice_23_16_1"
@@ -237,7 +237,7 @@ Interested in our services? Complete the form to receive a free quote or <b>call
           type="radio"
           defaultValue="Interpretation Services"
           id="choice_23_16_2"
-          onchange="gformToggleRadioOther( this )"
+          onChange="gformToggleRadioOther( this )"
         />
         <label
           htmlFor="choice_23_16_2"
@@ -254,7 +254,7 @@ Interested in our services? Complete the form to receive a free quote or <b>call
           type="radio"
           defaultValue="Training Account"
           id="choice_23_16_3"
-          onchange="gformToggleRadioOther( this )"
+          onChange="gformToggleRadioOther( this )"
         />
         <label
           htmlFor="choice_23_16_3"
@@ -271,7 +271,7 @@ Interested in our services? Complete the form to receive a free quote or <b>call
           type="radio"
           defaultValue="Testing Account"
           id="choice_23_16_4"
-          onchange="gformToggleRadioOther( this )"
+          onChange="gformToggleRadioOther( this )"
         />
         <label
           htmlFor="choice_23_16_4"
@@ -288,7 +288,7 @@ Interested in our services? Complete the form to receive a free quote or <b>call
           type="radio"
           defaultValue="Accent Reduction"
           id="choice_23_16_5"
-          onchange="gformToggleRadioOther( this )"
+          onChange="gformToggleRadioOther( this )"
         />
         <label
           htmlFor="choice_23_16_5"
@@ -335,8 +335,8 @@ Interested in our services? Complete the form to receive a free quote or <b>call
       id="gform_submit_button_28"
       className="btn btn-success btn-lg my-3"
       defaultValue="Get Started!"
-      onclick=''
-      onkeypress=''
+      onClick=''
+      
     />
    
   </div>

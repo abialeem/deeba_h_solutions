@@ -12,33 +12,33 @@ export default function ContactUsSimpleForm() {
           <div className="col-lg-5" >
             <span>CONTACT US</span>
             <h2 className="section-title mb-4" style={{fontWeight:'600',fontSize:'30px',marginTop:'20px'}}>Have Questions About Our Accent Reduction Training Courses?</h2>
-            <p class="has-xl-font-size" style={{
+            <p className="has-xl-font-size" style={{
               fontSize:'15px',
               lineHeight:'30px',
               fontWeight:'500'
             }}>
-                Fill out the form and an Zeeba H Solutions team member will reach out to you with more information as soon as possible.
+                Fill out the form and an Zeebah Solutions team member will reach out to you with more information as soon as possible.
             </p>
     
             <ul className="list-unstyled pl-md-5 mb-5">
 <li className="d-flex text-black mb-2">
 <span className="mr-3">
   <span className="icon-map" style={{marginRight:'10px'}}>
-  <i class="fa fa-map" aria-hidden="true"></i>
+  <i className="fa fa-map" aria-hidden="true"></i>
   </span>
 </span> SPC FREE ZONE  <br/> E311, Sheikh Mohammad Bin Zayed Rd, <br/>Sharjah, U.A.E
 </li>
 <li className="d-flex text-black mb-2">
   <span className="mr-3">
     <span className="icon-phone" style={{marginRight:'10px'}}>
-    <i class="fa fa-phone" aria-hidden="true"></i>
+    <i className="fa fa-phone" aria-hidden="true"></i>
     </span>
     </span> {contactNumber}
     </li>
 <li className="d-flex text-black">
   <span className="mr-3">
     <span className="icon-envelope-o" style={{marginRight:'10px'}}>
-    <i class="fa fa-envelope" aria-hidden="true"></i>
+    <i className="fa fa-envelope" aria-hidden="true"></i>
     </span>
     </span> info@zeebahsolutions.com 
     </li>
@@ -192,8 +192,8 @@ export default function ContactUsSimpleForm() {
       id="gform_submit_button_28"
       className="btn btn-success btn-lg my-3"
       defaultValue="Get Started!"
-      onclick=''
-      onkeypress=''
+      onClick=''
+     
     />
    
   </div>

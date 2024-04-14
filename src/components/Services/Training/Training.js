@@ -1,33 +1,19 @@
 import ContactUsTrainingForm from "../../Forms/ContactUsTrainingForm";
 import { Link } from "react-router-dom";
 import WhyChooseUs from '../../WhyChooseUs';
+import Hero from "../../Hero";
 
 function Training() {
-  // const contactNumber = '111-111-111';
+  // const contactNumber = '+44 7448 552945';
   return (
     <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Build Your Career As A Professional Interpreter</h1>
-                        <p  className="mb-4">
-
-                        Build Your Career as a Professional Interpreter
-Whether you’re just getting started, studying for your national certification, or earning credits to keep your certification, Zeeba H Solutions’s interpreter training courses let you advance your career at your own pace and on your schedule.
-                        </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://1.bp.blogspot.com/-FioU47OlaaU/YGf-zYt2W3I/AAAAAAAAAC4/iWb8F2FCbwcIRzT-HrvgnGXDmiib9KaTACLcBGAsYHQ/s2048/desktop%2Bpublishing%2Bservice.jpg" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <Hero 
+    heading='Build Your Career As A Professional Interpreter'
+    description=" Build Your Career as a Professional Interpreter whether you’re just getting started, studying for your national certification, or earning credits to keep your certification, Zeeba H Solutions’s interpreter training courses let you advance your career at your own pace and on your schedule."
+    imgSrc='/images/trainingFeatured.jpeg'
+    rotate='false'
+    btnShow='false'
+    />
 
     <div className="we-help-section" style={{marginTop:'100px',marginBottom:'100px'}}>
       <div className="container">

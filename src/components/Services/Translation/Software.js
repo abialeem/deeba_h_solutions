@@ -1,31 +1,20 @@
 import ContactUsTranslationForm from "../../Forms/ContactUsTranslationForm"
 import { Link } from 'react-router-dom';
+import Hero from "../../Hero";
 
 
 function Software() {
-  const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
   return (
     <>
-     <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Professional Website Software Localization</h1>
-                        <p  className="mb-4">Are you looking for professional software localization services from a renowned software translator? Translating software is a rare and highly-specialized skill that requires a wide variety of talents. Software localization is very complex, benefiting from knowledge not only of the target language, but of how software is put together in terms of its user interface, documentation, programming, and many other factors. </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.YZnj1Fp6m5v2YXjNXbeEQAHaFF?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+    <Hero 
+     heading='Professional Website Software Localization'
+     description="Are you looking for professional software localization services from a renowned software translator? Translating software is a rare and highly-specialized skill that requires a wide variety of talents. Software localization is very complex, benefiting from knowledge not only of the target language, but of how software is put together in terms of its user interface, documentation, programming, and many other factors."
+     imgSrc='/images/softwareTranslationFeatured.png'
+     rotate='false'
+     btnShow='false'
+    />
+    
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row justify-content-between">

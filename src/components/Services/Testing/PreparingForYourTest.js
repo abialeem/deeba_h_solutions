@@ -1,32 +1,16 @@
 import ContactUsTestingForm from "../../Forms/ContactUsTestingForm"
+import Hero from "../../Hero";
 function PreparingForYourTest() {
-  const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
   return (
    <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Practice and Prepare for Your Zeeba H Solutions Language Test</h1>
-                        <p  className="mb-4">
-
-                        Zeeba H Solutions Language Services administers language assessments to help government agencies, healthcare organizations, and businesses across the country objectively measure language performance for bilingual positions. Our tests come in a variety of formats, depending on the skill tested, and are available in more than 100 languages.
-
-If you’ve been asked to take one of these tests, you might be wondering what to expect and how to prepare.
-                        </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.-LyuWa4ttswSxg6XGhnFrgHaE8?w=1254&h=836&rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+   <Hero 
+   heading='Practice and Prepare for Your Zeeba H Solutions Language Test'
+   description="Zeeba H Solutions Language Services administers language assessments to help government agencies, healthcare organizations, and businesses across the country objectively measure language performance for bilingual positions. Our tests come in a variety of formats, depending on the skill tested, and are available in more than 100 languages.If you’ve been asked to take one of these tests, you might be wondering what to expect and how to prepare."
+   imgSrc='/images/translationAssessmentFeatured.jpeg'
+   rotate='false'
+   btnShow='false'
+   />
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row justify-content-between">

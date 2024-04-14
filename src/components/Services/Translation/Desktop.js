@@ -1,28 +1,18 @@
 import ContactUsTranslationForm from "../../Forms/ContactUsTranslationForm"
 import { Link } from 'react-router-dom';
+import Hero from "../../Hero";
 
 function Desktop() {
-  const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
   return (
     <>
-     <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'34px'}}>Professional Multilingual Desktop Publishing Translation Services</h1>
-                        <p  className="mb-4">At Zeeba H Solutions, our multilingual desktop publishing solutions eliminate the need to hire freelance designers for the documents you have translated. Whether you are preparing product inserts or instruction manuals for international products, our professional page layout service ensures that your final product will make a positive impression on your target audience, across different languages. </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.XJUVtdX7KGcSRSacuCx72wHaE8?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <Hero 
+    heading='Professional Multilingual Desktop Publishing Translation Services'
+    description="At Zeeba H Solutions, our multilingual desktop publishing solutions eliminate the need to hire freelance designers for the documents you have translated. Whether you are preparing product inserts or instruction manuals for international products, our professional page layout service ensures that your final product will make a positive impression on your target audience, across different languages."
+    imgSrc='/images/rsiFeatured.webp'
+    rotate='false'
+    btnShow='false'
+    />
 
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
@@ -42,8 +32,8 @@ function Desktop() {
           <div className="col-lg-6 ">
             <div className="hero-img-wrap" style={{marginLeft:'40px'}}>
                 <img 
-                src="https://1.bp.blogspot.com/-FioU47OlaaU/YGf-zYt2W3I/AAAAAAAAAC4/iWb8F2FCbwcIRzT-HrvgnGXDmiib9KaTACLcBGAsYHQ/s2048/desktop%2Bpublishing%2Bservice.jpg"
-                 alt="Untree.co"
+                src={process.env.PUBLIC_URL + "/images/trainingFeatured.jpeg"}
+                alt="Untree.co"
                  style={{width:'600px',borderRadius:'20px'}}
                   />
              

@@ -1,29 +1,16 @@
+import Hero from '../Hero';
 import './Testing.css';
 
 export default function Testing() {
   return (
     <>
-    <div  className="hero">
-    <div  className="container">
-        <div  className="row justify-content-between">
-            <div  className="col-lg-6">
-                <div  className="intro-excerpt">
-                    <h1 style={{fontSize:'44px'}}>Testing Languages Offered </h1>
-                    <p  className="mb-4" style={{fontSize:'20px'}}>
-                    Zeeba H Solutions is an official partner of LanguageBees and using their LABS (LanguageBees Assessment & Benchmarking System) provides worldclass language services.
-                       </p>
-                    
-                </div>
-            </div>
-            <div  className="col-lg-6">
-                <div  className="hero-img-wrap">
-                    <img src="https://th.bing.com/th/id/OIP.rQo_KJG8v3OZJ-PtzqsniQHaEJ?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+    <Hero 
+    heading='Testing Languages Offered'
+    description=" Zeebah Solutions is an official partner of LanguageBees and using their LABS (LanguageBees Assessment & Benchmarking System) provides worldclass language services."
+    imgSrc='/images/financeFeatured.jpeg'
+    rotate='false'
+    btnShow='false'
+    />
 <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'150px',paddingRight:'150px'}}>
         <div className="row justify-content-between">

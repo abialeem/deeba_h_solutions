@@ -1,33 +1,16 @@
 import ContactUsTrainingForm from "../../Forms/ContactUsTrainingForm";
+import Hero from "../../Hero";
 export default function ContinueEducationForMedicalInterpreters(){
 
     return(
         <>
-        <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>
-                        Continuing Education for Medical Interpreters
-                            </h1>
-                        <p  className="mb-4">
-                        Our flexible courses fulfill the continuing education requirements you need to maintain your CHI or CMI credential. Click an option below to explore our offerings!
-                        </p>
-                        
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://learn.altalang.com/wp-content/uploads/2023/12/alta_images-06-1024x819.jpg" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+        <Hero 
+        heading='Continuing Education for Medical Interpreters'
+        description=" Our flexible courses fulfill the continuing education requirements you need to maintain your CHI or CMI credential. Click an option below to explore our offerings!"
+        imgSrc='/images/educationFeatured.jpeg'
+        rotate='false'
+        btnShow='false'
+        />
     <div className="we-help-section" style={{marginTop:'-40px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row justify-content-between">
@@ -57,7 +40,7 @@ export default function ContinueEducationForMedicalInterpreters(){
           </div>
           <div className="col-lg-5 " style={{padding:'30px',paddingLeft:'50px'}}>
           <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.BNXEm2h228OY5kmdUesnywHaE1?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
+                        <img src={process.env.PUBLIC_URL +"/images/SixtyHourCoursePagIMG3.jpeg"} alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
                     </div> 
          
           </div>
@@ -71,7 +54,7 @@ export default function ContinueEducationForMedicalInterpreters(){
           
         <div className="col-lg-5 " style={{padding:'30px',paddingLeft:'50px'}}>
           <div  className="hero-img-wrap">
-                        <img src="https://learn.altalang.com/wp-content/uploads/2024/01/Alta-images-18-1024x819.jpg" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
+                        <img src={process.env.PUBLIC_URL +"/images/SixtyHourCoursePagIMG1.webp"} alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
                     </div> 
          
           </div>

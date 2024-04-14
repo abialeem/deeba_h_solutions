@@ -1,8 +1,9 @@
+import Document from "./Document"
 
 
 function Translation() {
   return (
-    <div>Translation</div>
+    <Document />
   )
 }
 

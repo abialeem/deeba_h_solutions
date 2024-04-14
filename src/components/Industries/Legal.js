@@ -1,32 +1,19 @@
 import { Link } from "react-router-dom";
 import ContactUsIndustriesForm from "../Forms/ContactUsIndustriesForm";
 import './Education.css';
+import Hero from "../Hero";
 
 export default function Legal() {
-  const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
   return (
     <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Legal Language Services</h1>
-                        <p  className="mb-4">
-                        Zeeba H Solutions is the chosen testing provider for a number of legal staffing agencies that hire personnel for foreign language document review services. For this reason, we have developed a suite of reading assessments in over 50 languages—from Albanian to Vietnamese—to help organizations like yours determine who has the requisite level of language skill to do the job. And because the tests are performed online and are scored automatically, we make it easy and efficient for you to screen candidates and make hiring decisions on the spot.
-                           </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.nw6Jlr7qq4E--QdyazAx_gHaE_?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <Hero 
+     heading='Legal Language Services'
+     description="Zeeba H Solutions is the chosen testing provider for a number of legal staffing agencies that hire personnel for foreign language document review services. For this reason, we have developed a suite of reading assessments in over 50 languages—from Albanian to Vietnamese—to help organizations like yours determine who has the requisite level of language skill to do the job. And because the tests are performed online and are scored automatically, we make it easy and efficient for you to screen candidates and make hiring decisions on the spot."
+     imgSrc='/images/legalFeatured.png'
+     rotate='false'
+     btnShow='false'
+    />
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row ">

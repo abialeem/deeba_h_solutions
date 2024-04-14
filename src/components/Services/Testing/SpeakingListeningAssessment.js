@@ -1,27 +1,17 @@
 import ContactUsTestingForm from "../../Forms/ContactUsTestingForm"
+import Hero from "../../Hero"
 
 function SpeakingListeningAssessment() {
   return (
     <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Speaking and Listening Assessment</h1>
-                        <p  className="mb-4">For over twenty years, companies, organizations, and government agencies alike have relied on zeeba h solutions Language Services to provide valid and reliable language testing. Whether hiring employees for a bilingual role, verifying second-language skills for incentive programs, or recruiting linguists to deploy overseas, the goal of these very diverse organizations is the same: to identify who among their candidates has the language skills to do the job. zeeba h solutions is the third-party organization trusted by hundreds of employers to provide independent language testing services. </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://new.translators-usa.com/wp-content/uploads/2022/01/Conference-Interpreting2-Translators-USA-LLC-1.jpeg" alt="feautred_images_front" style={{borderRadius:'30px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <Hero 
+    heading='Speaking and Listening Assessment'
+    description="Since our company's inception - companies, organizations, and government agencies alike have relied on zeeba h solutions Language Services to provide valid and reliable language testing. Whether hiring employees for a bilingual role, verifying second-language skills for incentive programs, or recruiting linguists to deploy overseas, the goal of these very diverse organizations is the same: to identify who among their candidates has the language skills to do the job."
+    imgSrc='/images/conferenceInterpretingFeatured.jpeg'
+    rotate='false'
+    btnShow='false'
+    />
+   
                 {/** more content here */}
 
                 <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>

@@ -1,37 +1,17 @@
 import ContactUsTrainingForm from "../../Forms/ContactUsTrainingForm";
+import Hero from "../../Hero";
 
 export default function FortyHourCourse(){
 
     return(
         <>
-  <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>
-                        Get Started as a Medical Interpreter Today!
-
-                            </h1>
-                        <p  className="mb-4">
-                        Turn your language skills into a rewarding new career with our most popular online training. Earn your 40-hour medical interpreter certificate and get qualified to work as an interpreter on your own schedule!
-                        </p>
-                        <p>
-                            <a href='#contactform' className="btn btn-secondary">GET STARTED</a>
-                        </p>
-                        
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.OWGBtjqXTUPRc-WJaKOJkwHaE8?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </div>
-
+        <Hero 
+        heading='Get Started as a Medical Interpreter Today!'
+        description=" Turn your language skills into a rewarding new career with our most popular online training. Earn your 40-hour medical interpreter certificate and get qualified to work as an interpreter on your own schedule! "
+        imgSrc='/images/FortyHourCourseFeatured.jpeg'
+        rotate='false'
+        btnShow='false'
+        />
     <div className="we-help-section" style={{marginTop:'-40px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row justify-content-between">
@@ -59,7 +39,7 @@ Our 40-hour interpreter training course teaches you everything you need to know 
           </div>
           <div className="col-lg-5 " style={{padding:'30px',paddingLeft:'50px'}}>
           <div  className="hero-img-wrap">
-                        <img src="https://learn.altalang.com/wp-content/uploads/2023/12/Alta-image-15-1024x819.jpg" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
+                        <img src={process.env.PUBLIC_URL + "/images/FortyHourCourseFeatured.jpeg"} alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
                     </div> 
          
           </div>
@@ -73,7 +53,7 @@ Our 40-hour interpreter training course teaches you everything you need to know 
           
         <div className="col-lg-5 " style={{padding:'30px',paddingLeft:'50px'}}>
           <div  className="hero-img-wrap">
-                        <img src="https://learn.altalang.com/wp-content/uploads/2024/01/Alta-images-18-1024x819.jpg" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
+                        <img src={process.env.PUBLIC_URL + "/images/FortyHourCoursePageIMG1.jpeg"} alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
                     </div> 
          
           </div>

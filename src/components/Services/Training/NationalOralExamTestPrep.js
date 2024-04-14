@@ -1,33 +1,17 @@
 import ContactUsTrainingForm from "../../Forms/ContactUsTrainingForm";
+import Hero from "../../Hero";
 export default function NationalOralExamTestPrep(){
 
     return(
         <>
-        <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>
-                        Prepare For Your Medical Interpreter Certification Test
-                            </h1>
-                        <p  className="mb-4">
-                        Ready to level up your medical interpreting career with a national certification? Our course will prepare you for both the CCHI oral exam and the NBCMI oral exam, so you can walk into your test with confidence!
-                        </p>
-                        
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.XJUVtdX7KGcSRSacuCx72wHaE8?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+        <Hero 
+         heading=' Prepare For Your Medical Interpreter Certification Test'
+         description="Ready to level up your medical interpreting career with a national certification? Our course will prepare you for both the CCHI oral exam and the NBCMI oral exam, so you can walk into your test with confidence!"
+         imgSrc='/images/overPhoneInterpretingFeatured.webp'
+         rotate='false'
+         btnShow='false'
+        />
+       
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row justify-content-between">
@@ -47,7 +31,7 @@ export default function NationalOralExamTestPrep(){
           </div>
           <div className="col-lg-5 " style={{padding:'30px',paddingLeft:'50px'}}>
           <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.BNXEm2h228OY5kmdUesnywHaE1?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
+                        <img src={process.env.PUBLIC_URL +"/images/SixtyHourCoursePagIMG3.jpeg"} alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
                     </div> 
          
           </div>

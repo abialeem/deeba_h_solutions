@@ -6,13 +6,14 @@ export default function Footer(){
         <footer className="footer-section" style={{marginTop:'200px'}}>
   <div className="container relative">
     <div className="sofa-img">
-      <img src="/images/ZEEBA-LOGO-10.PNG" alt="company-name"  className="img-fluid" />
+      <img src={process.env.PUBLIC_URL + "/images/ZEEBA-LOGO-10.PNG"} alt="company-name"  className="img-fluid" />
     </div>
     <div className="row">
       <div className="col-lg-8">
         <div className="subscription-form">
           <h3 className="d-flex align-items-center">
-            <span className="me-1"><img src="/images/envelope-outline.svg" alt="envelope-outline"  className="img-fluid" /></span>
+            <span className="me-1">
+              <img src={process.env.PUBLIC_URL + "/images/envelope-outline.svg"} alt="envelope-outline"  className="img-fluid" /></span>
             <span>Subscribe to Newsletter</span>
           </h3>
           <form action="#" className="row g-3">
@@ -34,9 +35,9 @@ export default function Footer(){
     <div className="row g-5 mb-5">
       <div className="col-lg-4">
         <div className="mb-4 footer-logo-wrap">
-          <Link to="/" className="footer-logo">ZEEBA H SOLUTIONS<span>.</span></Link>
+          <Link to="/" className="footer-logo">Zeebah Solutions<span>.</span></Link>
         </div>
-        <p className="mb-4">Whether through translation services, language testing, or any of our client-tailored language solutions projects, ZEEBA H SOLUTIONS develops and employs the latest technology to bridge cultures. It is the combination of our linguistic expertise, tech savviness, understanding of cultures, and quality service that sets us apart.</p>
+        <p className="mb-4">Whether through translation services, language testing, or any of our client-tailored language solutions projects, Zeebah Solutions develops and employs the latest technology to bridge cultures. It is the combination of our linguistic expertise, tech savviness, understanding of cultures, and quality service that sets us apart.</p>
         <ul className="list-unstyled custom-social">
           <li><Link to="https://facebook.com"><span className="fa fa-brands fa-facebook-f"></span></Link></li>
           <li><Link to="https://twitter.com"><span className="fa fa-brands fa-twitter"></span></Link></li>

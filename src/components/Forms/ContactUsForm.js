@@ -10,15 +10,15 @@ export default function ContactUsForm() {
           
           <div className="col-lg-5" >
             <span>CONTACT US</span>
-            <h2 className="section-title mb-4" style={{fontWeight:'600',fontSize:'30px',marginTop:'20px'}}>Get Started with Zeeba H Solutions Today!</h2>
-            <p class="has-xl-font-size" style={{
+            <h2 className="section-title mb-4" style={{fontWeight:'600',fontSize:'30px',marginTop:'20px'}}>Get Started with Zeebah Solutions Today!</h2>
+            <p className="has-xl-font-size" style={{
               fontSize:'15px',
               lineHeight:'30px',
               fontWeight:'500'
             }}>
                 Our goal is to facilitate communication with excellence and professionalism, while taking every practical step to protect the privacy of all involved. With more than 30 years of experience in providing language services, we know that your business comes with its own special set of linguistic needs, and we’re prepared to meet those needs immediately.
             </p>
-            <p class="has-xl-font-size" style={{
+            <p className="has-xl-font-size" style={{
               fontSize:'15px',
               lineHeight:'30px',
               fontWeight:'500'
@@ -30,21 +30,21 @@ export default function ContactUsForm() {
 <li className="d-flex text-black mb-2">
 <span className="mr-3">
   <span className="icon-map" style={{marginRight:'10px'}}>
-  <i class="fa fa-map" aria-hidden="true"></i>
+  <i className="fa fa-map" aria-hidden="true"></i>
   </span>
 </span> SPC FREE ZONE  <br/> E311, Sheikh Mohammad Bin Zayed Rd, <br/>Sharjah, U.A.E
 </li>
 <li className="d-flex text-black mb-2">
   <span className="mr-3">
     <span className="icon-phone" style={{marginRight:'10px'}}>
-    <i class="fa fa-phone" aria-hidden="true"></i>
+    <i className="fa fa-phone" aria-hidden="true"></i>
     </span>
     </span> {contactNumber}
     </li>
 <li className="d-flex text-black">
   <span className="mr-3">
     <span className="icon-envelope-o" style={{marginRight:'10px'}}>
-    <i class="fa fa-envelope" aria-hidden="true"></i>
+    <i className="fa fa-envelope" aria-hidden="true"></i>
     </span>
     </span> info@zeebahsolutions.com 
     </li>

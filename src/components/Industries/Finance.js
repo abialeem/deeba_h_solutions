@@ -1,29 +1,20 @@
 import { Link } from "react-router-dom";
 import ContactUsIndustriesForm from "../Forms/ContactUsIndustriesForm";
 import './Education.css';
+import Hero from "../Hero";
 
 export default function Finance() {
-  const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
   return (
     <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'38px'}}>Financial Language Services</h1>
-                        <p  className="mb-4">Get fast and accurate translations of financial documents or contracts and access a network of experienced financial interpreters to provide financial services to Limited English Proficiency (LEP) customers. Zeeba H Solutions has provided financial language services to industry leaders for 40+ years through our network of over 2,500 professional translators and interpreters. </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://www.languageinsight.com/wp-content/uploads/2018/02/19-web.jpg" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <Hero 
+    heading='Financial Language Services'
+    description="Get fast and accurate translations of financial documents or contracts and access a network of experienced financial interpreters to provide financial services to Limited English Proficiency (LEP) customers."
+    imgSrc='/images/financeFeatured.jpeg'
+    rotate='false'
+    btnShow='false'
+    />
+   
 
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
@@ -197,7 +188,7 @@ alt={Math.random()+'image-not-icon'}/>
 Website Software Localization
 </h3>
 <div  className=" cta__description cta__content-item  content-item" styl={{height:'400px'}}>
-Entering a new market with your financial software? With over 30 years of experience, Zeeba H Solutions is a leader in software localization projects.
+Entering a new market with your financial software? Zeeba H Solutions is a leader in software localization projects.
  </div>
 <div  className=" cta__button-wrapper  cta__content-item  content-item ">
 <span  className=" cta__button  btn ">

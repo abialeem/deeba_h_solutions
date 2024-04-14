@@ -1,30 +1,20 @@
 import React from 'react'
 import ContactUsTranslationForm from '../../Forms/ContactUsTranslationForm'
 import { Link } from 'react-router-dom';
+import Hero from '../../Hero';
 
 function Document() {
-  const contactNumber = '111-111-111';
+  const contactNumber = '+44 7448 552945';
   return (
     <>
-     <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'44px'}}>Expert translations paving the way for seamless global communication.</h1>
-                        <p  className="mb-4">At Zeeba H Solutions,we only use established expert linguists for our document translations.we combine cutting-edge machine translation, workflow automation and natural language speech technologies with the greatest human talent to deliver the new quality benchmark in the translation industry. </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://th.bing.com/th/id/OIP.IJPqESU0P6IWIWhNp7aOJgHaFM?rs=1&pid=ImgDetMain" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <Hero 
+     heading='Expert translations paving the way for seamless global communication.'
+     description="At Zeeba H Solutions,we only use established expert linguists for our document translations.we combine cutting-edge machine translation, workflow automation and natural language speech technologies with the greatest human talent to deliver the new quality benchmark in the translation industry."
+     imgSrc='/images/documentTranslationFeatured.jpeg'
+     rotate='false'
+     btnShow='false'
+    />
+   
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row justify-content-between">

@@ -1,29 +1,18 @@
 import { Link } from "react-router-dom";
 import ContactUsIndustriesForm from "../Forms/ContactUsIndustriesForm";
 import './Education.css';
+import Hero from "../Hero";
 
 export default function Education() {
   return (
     <>
-    <div  className="hero">
-        <div  className="container">
-            <div  className="row justify-content-between">
-                <div  className="col-lg-6">
-                    <div  className="intro-excerpt">
-                        <h1 style={{fontSize:'38px'}}>Language Services for Education</h1>
-                        <p  className="mb-4">At Zeeba H Solutions, We Aspire To Provide Equity In Education Today. Education is backbone of society and we believe language is backbone of education. </p>
-                        
-                    </div>
-                </div>
-                <div  className="col-lg-6">
-                    <div  className="hero-img-wrap">
-                        <img src="https://languagefactoryinc.com/wp-content/uploads/2017/12/Language-Services-Miami-Language-Factroy-Kids-Special-packages.jpg" alt="feautred_images_front" style={{borderRadius:'30px',width:'700px'}}  className="img-fluid " />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <Hero 
+    heading='Language Services for Education'
+    description="At Zeeba H Solutions, We Aspire To Provide Equity In Education Today. Education is backbone of society and we believe language is backbone of education."
+    imgSrc='/images/educationIndustryFeatured.jpeg'
+    rotate='false'
+    btnShow='false'
+    />
     <div className="we-help-section" style={{marginTop:'50px',marginBottom:'10px'}}>
       <div className="container" style={{paddingLeft:'50px',paddingRight:'50px'}}>
         <div className="row ">
